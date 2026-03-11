@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinh Địa Tạng Khoa Phán - Sơ Đồ Cây</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Sơ Đồ Khoa Phán Kinh Địa Tạng</h1>
+        <p>Giữ phím <strong>Shift + Click chuột</strong> để chọn nhiều bảng cùng lúc. Click ra nền đen để bỏ chọn toàn
+            bộ.<br>Có thể kéo thả khung nền, cuộn chuột để phóng to/thu nhỏ, và click đúp vào các nút để thu gọn/mở
+            rộng.</p>
+        <div class="toolbar" style="margin-top: 10px;">
+            <button onclick="exportLayout()" style="padding: 5px 10px; cursor: pointer;">💾 Lưu Layout Hiện Tại (Làm Mặc
+                Định)</button>
+            <button onclick="autoLayout()"
+                style="padding: 5px 10px; cursor: pointer; background: #225522; color: #fff; margin-left:10px;">🪄 Tự
+                Động Sắp Xếp</button>
+            <button onclick="resetLayout()"
+                style="padding: 5px 10px; cursor: pointer; background: #552222; color: #fff; margin-left:10px;">🔄 Reset
+                (Về Mặc Định)</button>
+        </div>
+    </div>
+    <div id="tree-container"></div>
+    <script src="layout_data.js"></script>
+    <script src="tree_data.js"></script>
+    <script src="tree.js"></script>
+</body>
+
+</html>
