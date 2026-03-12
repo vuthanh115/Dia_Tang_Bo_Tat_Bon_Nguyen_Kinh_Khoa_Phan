@@ -601,25 +601,3 @@ window.resetLayout = function () {
     }
 };
 
-window.autoLayout = function () {
-    if (confirm("Lệnh này sẽ biến toàn bộ sơ đồ thành một bảng lưới đồng đều, lấy chiều dài của bảng chữ bự nhất làm thước đo chuẩn để xây dựng khoảng cách ô cho các tầng. Toàn bộ toạ độ kéo tay lập tức bị xoá. Bạn có chắc chắn?")) {
-        let maxHeight = 0;
-        root.each(d => {
-            const numWords = d.data.words ? d.data.words.length : 1;
-            const hasHeader = d.data.header ? 1 : 0;
-            const height = 75 + numWords * 50 + hasHeader * 30 + 15;
-            if (height > maxHeight) maxHeight = height;
-        });
-
-        const verticalGridStep = maxHeight + 100;
-
-        root.each(d => {
-            d.targetY = d.depth * verticalGridStep;
-            d.data.offsetY = d.targetY - (d.depth * 600);
-            d.data.offsetX = 0;
-        });
-
-        update(root);
-        saveTreeState();
-    }
-};
