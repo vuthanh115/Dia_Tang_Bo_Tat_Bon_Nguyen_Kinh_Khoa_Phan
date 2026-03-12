@@ -361,9 +361,10 @@ function update(source) {
             }
         });
 
+    // 1. SỬA LẠI ĐIỂM KÉO DÂY MÀU ĐỎ
     nodeEnter.append('circle')
         .attr('class', 'source-port')
-        .attr('r', 15) /* Tăng vùng chạm lớn hơn nữa cho mobile */
+        .attr('r', 6) // Thu nhỏ lõi đỏ lại để không che chữ
         .attr('cx', 0)
         .attr('cy', d => {
             const numWords = d.data.words ? d.data.words.length : 1;
@@ -371,20 +372,23 @@ function update(source) {
             return 75 + numWords * 50 + hasHeader * 30 + 15;
         })
         .style("fill", "red")
-        .style("stroke", "#fff")
-        .style("stroke-width", "2px")
+        .style("stroke", "transparent") // Chuyển màu viền thành vô hình
+        .style("stroke-width", "25px") // Làm viền vô hình cực dày để ngón tay dễ chạm
         .style("cursor", "crosshair")
+        .style("pointer-events", "all") // Bắt buộc phần vô hình vẫn nhận cảm ứng
         .style("display", d => d.data.isEmptyNode ? "none" : null)
         .call(dragPort);
 
+    // 2. SỬA LẠI ĐIỂM NHẬN DÂY MÀU XANH LÁ
     nodeEnter.append('circle')
         .attr('class', 'target-port')
-        .attr('r', 15) /* Tăng vùng chạm lớn hơn nữa cho mobile */
+        .attr('r', 6) // Thu nhỏ lõi xanh lại
         .attr('cx', 0)
         .attr('cy', -15)
         .style("fill", "#00ff00")
-        .style("stroke", "#fff")
-        .style("stroke-width", "2px")
+        .style("stroke", "transparent") // Viền vô hình
+        .style("stroke-width", "25px") // Hứng cảm ứng
+        .style("pointer-events", "all")
         .style("display", d => d.data.isEmptyNode ? "none" : null);
 
     const nodeUpdate = nodeEnter.merge(node);
