@@ -1,132 +1,109 @@
-body {
+body,
+html {
     margin: 0;
-    font-family: 'Noto Serif JP', serif;
-    background: linear-gradient(135deg, #1b1b22 0%, #0d0d12 100%);
-    color: #f1f1f1;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-.header {
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    padding: 15px 30px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
-    z-index: 10;
-}
-
-.header h1 {
-    margin: 0 0 5px 0;
-    font-size: 24px;
-    color: #e0c38c;
-    /* golden Buddhist vibe */
-    letter-spacing: 1px;
-}
-
-.header p {
-    margin: 0;
-    font-size: 14px;
-    color: #a0a0b0;
+    background-color: #0d0d12;
+    /* Nền tối */
+    font-family: Arial, sans-serif;
+    /* Chống bôi đen text khi chạm giữ trên thiết bị di động */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #tree-container {
-    flex-grow: 1;
     width: 100%;
-    cursor: grab;
+    height: 100%;
 }
 
-#tree-container:active {
-    cursor: grabbing;
-}
-
-/* D3 Tree Custom Styles */
-.node circle {
-    fill: #1b1b22;
-    stroke: #e0c38c;
-    stroke-width: 2.5px;
-    transition: all 0.3s ease;
-}
-
-.node circle:hover {
-    fill: #e0c38c;
-    stroke: #ffffff;
-    box-shadow: 0 0 10px #e0c38c;
-}
-
+/* Kiểu dáng cho thẻ node */
 .node-card {
-    background: #0a0a0d;
-    border: 1px solid rgba(224, 195, 140, 0.4);
-    border-radius: 6px;
-    padding: 8px;
+    background-color: #1b1b22;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
-    width: calc(100% - 16px);
-    height: calc(100% - 16px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
-    font-family: Arial, sans-serif;
-    color: #fff;
+    gap: 8px;
+    transition: box-shadow 0.2s, border-color 0.2s;
+    pointer-events: auto;
+    /* Cho phép click vào card */
+    box-sizing: border-box;
 }
 
+/* Hiệu ứng chọn (Multi-select) */
+.node-card.selected {
+    border-color: #ff4444 !important;
+    /* Đỏ đậm để dễ nhận biết */
+    box-shadow: 0 0 15px rgba(255, 68, 68, 0.8) !important;
+}
+
+.node-header {
+    background-color: #2a2a35;
+    color: #e0c38c;
+    /* Màu vàng nhạt giống kinh Phật */
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+/* Từng dòng chữ (1 từ = 1 hàng) */
 .char-row {
     display: flex;
     align-items: center;
-    margin-bottom: 8px;
+    background-color: #22222a;
+    border-radius: 4px;
+    padding: 4px;
 }
 
+/* Cột chữ Hán */
 .cn-char {
     font-size: 28px;
-    color: #e8e8e8;
-    margin-right: 12px;
-    font-family: 'Noto Serif JP', serif;
+    color: #fff;
+    font-weight: bold;
+    min-width: 40px;
+    text-align: center;
+    font-family: "KaiTi", "STKaiti", serif;
 }
 
+/* Cột phiên âm */
 .phonetics {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin-left: 8px;
+    flex: 1;
 }
 
 .pinyin {
-    color: #00ffff;
-    font-style: italic;
-    font-size: 13px;
-    margin-bottom: 2px;
+    font-size: 11px;
+    color: #aaa;
 }
 
 .hanviet {
-    color: #ff00ff;
+    font-size: 14px;
+    color: #4CAF50;
+    /* Xanh lá dễ nhìn */
     font-weight: bold;
-    font-size: 15px;
 }
 
 .separator {
-    border-top: 1px dashed rgba(255, 255, 255, 0.3);
-    margin: auto 0 8px 0;
-    /* push to bottom */
+    height: 1px;
+    background-color: #444;
+    margin: 4px 0;
 }
 
 .meaning {
-    color: #ffff00;
-    font-style: italic;
-    font-size: 13px;
+    font-size: 12px;
+    color: #ccc;
     text-align: center;
-}
-.node-header {
-    color: #ff00ff;
-    font-size: 16px;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 5px;
-    margin-bottom: 8px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    font-family: 'Arial', sans-serif;
-}
-
-.node-card.selected {
-    border: 2px solid #00ff00;
-    box-shadow: 0 0 15px rgba(0, 255, 0, 0.8);
 }

@@ -3,30 +3,44 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kinh Địa Tạng Khoa Phán - Sơ Đồ Cây</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Sơ Đồ Địa Tạng Bồ Tát Bổn Nguyện Kinh - Khoa Phán</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="header">
-        <h1>Sơ Đồ Khoa Phán Kinh Địa Tạng</h1>
-        <p>Giữ phím <strong>Shift + Click chuột</strong> để chọn nhiều bảng cùng lúc. Click ra nền đen để bỏ chọn toàn
-            bộ.<br>Có thể kéo thả khung nền, cuộn chuột để phóng to/thu nhỏ, và click đúp vào các nút để thu gọn/mở
-            rộng.</p>
-        <div class="toolbar" style="margin-top: 10px;">
-            <button onclick="exportLayout()" style="padding: 5px 10px; cursor: pointer;">💾 Lưu Layout Hiện Tại (Làm Mặc
-                Định)</button>
-            <button onclick="resetLayout()"
-                style="padding: 5px 10px; cursor: pointer; background: #552222; color: #fff; margin-left:10px;">🔄 Reset
-                (Về Mặc Định)</button>
-        </div>
+    <div class="toolbar"
+        style="position: absolute; top: 10px; left: 10px; z-index: 1000; display: flex; flex-wrap: wrap; gap: 8px; max-width: 95vw;">
+        <button onclick="exportLayout()"
+            style="padding: 8px 12px; cursor: pointer; background: #007bff; color: #fff; border: none; border-radius: 4px; font-weight: bold;">💾
+            Xuất Layout</button>
+        <button onclick="resetLayout()"
+            style="padding: 8px 12px; cursor: pointer; background: #dc3545; color: #fff; border: none; border-radius: 4px; font-weight: bold;">🗑️
+            Reset Gốc</button>
+        <button onclick="toggleMobileMode()" id="btn-mobile-mode"
+            style="padding: 8px 12px; cursor: pointer; background: #555; color: #fff; border: none; border-radius: 4px; font-weight: bold;">📲
+            Chọn Nhiều: TẮT</button>
     </div>
+
     <div id="tree-container"></div>
-    <script src="layout_data.js"></script>
+
+    <script>
+        window.isMobileSelectMode = false;
+        function toggleMobileMode() {
+            window.isMobileSelectMode = !window.isMobileSelectMode;
+            const btn = document.getElementById('btn-mobile-mode');
+            if (window.isMobileSelectMode) {
+                btn.style.background = "#d9534f";
+                btn.innerText = "📲 Chọn Nhiều: ĐANG BẬT";
+            } else {
+                btn.style.background = "#555";
+                btn.innerText = "📲 Chọn Nhiều: TẮT";
+            }
+        }
+    </script>
     <script src="tree_data.js"></script>
+    <script src="layout_data.js"></script>
     <script src="tree.js"></script>
 </body>
 

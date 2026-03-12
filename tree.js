@@ -9,7 +9,6 @@ const svg = d3.select("#tree-container").append("svg")
         svgGroup.attr("transform", event.transform);
     }))
     .on("click", function (event) {
-        // Cập nhật: Nhận diện thêm lớp overlay của Brush để khi click ra nền đen sẽ hủy chọn chính xác
         const isBackground = event.target.tagName === 'svg' ||
             event.target.tagName === 'g' ||
             event.target.classList.contains('overlay') ||
@@ -18,19 +17,17 @@ const svg = d3.select("#tree-container").append("svg")
         if (isBackground) {
             if (typeof selectedNodes !== 'undefined' && selectedNodes.size > 0) {
                 selectedNodes.clear();
-                d3.selectAll('.node-card').classed('selected', false); // Xóa viền đỏ tức thì
+                d3.selectAll('.node-card').classed('selected', false);
                 update(root);
             }
         }
     })
     .append("g");
 
-// Chỉnh lại toạ độ trọng tâm: nằm ở phía trên (margin.top), ở giữa màn hình
 const svgGroup = svg.append("g").attr("transform", `translate(${width / 2},${margin.top})`);
 
 let root = d3.hierarchy(treeData, d => d.children);
 
-// --- LOCAL STORAGE STATE ---
 function assignPathIds(node, path) {
     node.pathId = path;
     if (node.children) {
@@ -39,37 +36,24 @@ function assignPathIds(node, path) {
 }
 assignPathIds(treeData, "0");
 
-root.each(d => d.id = d.data.pathId); // Gắn pathId ổn định cho mỗi node làm ID thật cho D3
+root.each(d => d.id = d.data.pathId);
 root.x0 = 0;
 root.y0 = 0;
 
-let i = 0; // Legacy
+let i = 0;
 const duration = 750;
 
-// Sử dụng nodeSize với: X (ngang) cách nhau 140px, Y (dọc) sâu xuống 600px theo từng tầng
 const treeMap = d3.tree().nodeSize([180, 600]);
 
-// Hàm rút gọn các nhánh (nếu muốn)
-function collapse(d) {
-    if (d.children) {
-        d._children = d.children;
-        d._children.forEach(collapse);
-        d.children = null;
-    }
-}
-
 let customLinks = [];
-let deletedLinks = []; // Lưu các link mặc định đã bị xoá bởi người dùng
-let selectedNodes = new Set(); // Multi-select Set
+let deletedLinks = [];
+let selectedNodes = new Set();
 
-// --- CHỨC NĂNG QUÉT CHỌN NHIỀU BẢNG (BRUSH) ---
-// Dùng API chuẩn của D3, không ẩn hiện bằng CSS để tránh lỗi kẹt trạng thái
 const brush = d3.brush()
     .filter(event => {
-        // CHỈ KÍCH HOẠT QUÉT VÙNG KHI: Giữ phím Ctrl (hoặc Alt tùy bạn đang thiết lập) và bấm Chuột trái
+        if (window.isMobileSelectMode) return true;
         return event.ctrlKey && !event.button;
     })
-    // Tăng giới hạn không gian lên 1 triệu pixel (thoải mái quét ở bất kỳ tọa độ nào)
     .extent([[-1000000, -1000000], [1000000, 1000000]])
     .on("start", brushStarted)
     .on("brush", brushed)
@@ -81,7 +65,6 @@ const brushGroup = svgGroup.append("g")
 
 function brushStarted(event) {
     if (!event.selection) return;
-    // Bỏ chọn tất cả trước khi quét vùng mới
     selectedNodes.clear();
     d3.selectAll('.node-card').classed('selected', false);
 }
@@ -91,11 +74,8 @@ function brushed(event) {
     const [[x0, y0], [x1, y1]] = event.selection;
 
     d3.selectAll("g.node").each(function (d) {
-        // Trục X đang đảo dấu trong hàm update
         let nodeX = -(d.x + (d.data.offsetX || 0));
         let nodeY = d.y + (d.data.offsetY || 0);
-
-        // Nới rộng khoảng bắt dính
         let isInside = nodeX >= x0 - 80 && nodeX <= x1 + 80 && nodeY >= y0 - 50 && nodeY <= y1 + 150;
 
         if (isInside) {
@@ -110,13 +90,11 @@ function brushed(event) {
 
 function brushEnded(event) {
     if (event.selection) {
-        brushGroup.call(brush.move, null); // Tự động xóa khung nét đứt khi thả chuột
+        brushGroup.call(brush.move, null);
         update(root);
     }
 }
-// --- KẾT THÚC CHỨC NĂNG BRUSH ---
 
-// Đọc dữ liệu đã lưu từ LocalStorage
 let savedState = null;
 try {
     const ls = localStorage.getItem("treeMapState_" + document.title);
@@ -180,7 +158,6 @@ function update(source) {
     const nodes = treeData.descendants();
     let links = treeData.descendants().slice(1);
 
-    // Lọc bỏ những link đã bị người dùng xoá
     links = links.filter(l => !deletedLinks.some(dl => dl.source === l.parent.id && dl.target === l.id));
 
     nodes.forEach(d => {
@@ -189,34 +166,30 @@ function update(source) {
         if (!d.data.offsetY) d.data.offsetY = 0;
     });
 
-    // Vẽ Trục Ngang Vô Tận (Grid Axes)
     let maxDepth = d3.max(nodes, d => d.depth) || 0;
     let axesData = [];
-    // Vẽ thêm 10 đường phía trên và 5 đường phía dưới để hỗ trợ kéo thả tự do
     for (let i = -10; i <= maxDepth + 5; i++) {
         axesData.push({ depth: i, y: i * 600 });
     }
 
-    // Tự động quét và tìm điểm xa nhất bên trái/phải của toàn bộ các bảng chữ hiện có
     let minLeft = d3.min(nodes, d => -(d.x + (d.data.offsetX || 0))) - 2000;
     let maxRight = d3.max(nodes, d => -(d.x + (d.data.offsetX || 0))) + 2000;
 
-    // Đảm bảo đường luôn dài tối thiểu 50.000px để không bị cụt khi sơ đồ còn nhỏ
     if (minLeft > -50000) minLeft = -50000;
     if (maxRight < 50000) maxRight = 50000;
 
     const axes = svgGroup.selectAll('line.grid-axis').data(axesData, d => d.depth);
     axes.enter().insert('line', ':first-child')
         .attr('class', 'grid-axis')
-        .style('stroke', '#00ff00') // Màu xanh lá cây giống AutoCAD
+        .style('stroke', '#00ff00')
         .style('stroke-dasharray', '8,4')
         .style('opacity', 0.6)
         .style('stroke-width', 1.5)
         .style('pointer-events', 'none')
         .merge(axes)
         .transition().duration(duration)
-        .attr('x1', minLeft)  // Điểm bắt đầu tự động bám theo lề trái
-        .attr('x2', maxRight) // Điểm kết thúc tự động bám theo lề phải
+        .attr('x1', minLeft)
+        .attr('x2', maxRight)
         .attr('y1', d => d.y)
         .attr('y2', d => d.y);
     axes.exit().remove();
@@ -228,7 +201,6 @@ function update(source) {
         .attr('class', 'node')
         .attr("transform", d => `translate(${-(source.x0 + source.data.offsetX)},${source.y0 + source.data.offsetY})`);
 
-    // Gắn sự kiện kéo thả (Drag) vào cả cụm node
     const dragNode = d3.drag()
         .on("start", function (event, d) {
             d3.select(this).raise();
@@ -337,7 +309,6 @@ function update(source) {
             return htmlStr;
         });
 
-    // --- LOGIC Kéo nối dây ---
     let dragLine;
     const dragPort = d3.drag()
         .on("start", function (event, d) {
@@ -352,7 +323,7 @@ function update(source) {
             dragLine = svgGroup.append("path")
                 .attr("class", "drag-line")
                 .style("stroke", "red")
-                .style("stroke-width", "3px")
+                .style("stroke-width", "6px")
                 .style("fill", "none")
                 .attr("d", `M ${startX} ${startY} L ${startX} ${startY}`);
         })
@@ -378,7 +349,7 @@ function update(source) {
                 const tx = -(n.x + n.data.offsetX);
                 const ty = n.y + n.data.offsetY - 20;
                 const dist = Math.sqrt(Math.pow(tx - mouseCoord[0], 2) + Math.pow(ty - mouseCoord[1], 2));
-                if (dist < 40) {
+                if (dist < 80) {
                     targetNode = n;
                 }
             });
@@ -392,7 +363,7 @@ function update(source) {
 
     nodeEnter.append('circle')
         .attr('class', 'source-port')
-        .attr('r', 8)
+        .attr('r', 15) /* Tăng vùng chạm lớn hơn nữa cho mobile */
         .attr('cx', 0)
         .attr('cy', d => {
             const numWords = d.data.words ? d.data.words.length : 1;
@@ -408,7 +379,7 @@ function update(source) {
 
     nodeEnter.append('circle')
         .attr('class', 'target-port')
-        .attr('r', 8)
+        .attr('r', 15) /* Tăng vùng chạm lớn hơn nữa cho mobile */
         .attr('cx', 0)
         .attr('cy', -15)
         .style("fill", "#00ff00")
@@ -446,7 +417,7 @@ function update(source) {
     const linkEnter = link.enter().insert('path', "g")
         .attr("class", "link")
         .style("stroke", "#444")
-        .style("stroke-width", "3px")
+        .style("stroke-width", "6px")
         .style("fill", "none")
         .style("cursor", "pointer")
         .style("pointer-events", "visibleStroke")
@@ -454,8 +425,8 @@ function update(source) {
             const o = { x: source.x0, y: source.y0, data: { offsetX: 0, offsetY: 0, words: source.data.words, header: source.data.header } };
             return diagonal(o, o);
         })
-        .on("mouseover", function () { d3.select(this).style("stroke", "orange").style("stroke-width", "6px"); })
-        .on("mouseout", function () { d3.select(this).style("stroke", "#444").style("stroke-width", "3px"); })
+        .on("mouseover", function () { d3.select(this).style("stroke", "orange").style("stroke-width", "10px"); })
+        .on("mouseout", function () { d3.select(this).style("stroke", "#444").style("stroke-width", "6px"); })
         .on("click", function (event, d) {
             if (confirm("Xoá dây nối mặc định này?")) {
                 deletedLinks.push({ source: d.parent.id, target: d.id });
@@ -524,12 +495,12 @@ function update(source) {
         cLinks.enter().insert('path', "g")
             .attr("class", "custom-link")
             .style("stroke", "red")
-            .style("stroke-width", "3px")
+            .style("stroke-width", "6px")
             .style("fill", "none")
             .style("cursor", "pointer")
             .style("pointer-events", "visibleStroke")
-            .on("mouseover", function () { d3.select(this).style("stroke", "orange").style("stroke-width", "6px"); })
-            .on("mouseout", function () { d3.select(this).style("stroke", "red").style("stroke-width", "3px"); })
+            .on("mouseover", function () { d3.select(this).style("stroke", "orange").style("stroke-width", "10px"); })
+            .on("mouseout", function () { d3.select(this).style("stroke", "red").style("stroke-width", "6px"); })
             .on("click", function (event, d) {
                 if (confirm("Xoá dây tự nối màu đỏ này?")) {
                     customLinks = customLinks.filter(l => l !== d);
@@ -544,8 +515,7 @@ function update(source) {
     }
 
     function click(event, d) {
-        // Vẫn giữ nguyên tính năng Multi-select (Chọn nhiều bảng) khi giữ Shift hoặc Ctrl
-        if (event.shiftKey || event.ctrlKey || event.metaKey) {
+        if (event.shiftKey || event.ctrlKey || event.metaKey || window.isMobileSelectMode) {
             if (selectedNodes.has(d.id)) {
                 selectedNodes.delete(d.id);
             } else {
@@ -555,27 +525,12 @@ function update(source) {
             return;
         }
 
-        // --- TÍNH NĂNG COLLAPSE (GẬP NHÁNH) ĐÃ BỊ KHÓA ---
-        /* (Đoạn code cũ dưới đây đã được vô hiệu hóa)
-        if (d.children) {
-            d._children = d.children;
-            d.children = null;
-        } else {
-            d.children = d._children;
-            d._children = null;
-        }
-        update(d);
-        saveTreeState(); 
-        */
-
-        // MỚI: Nếu click chuột trái bình thường (không giữ phím), ta sẽ chọn duy nhất bảng này và bỏ chọn các bảng khác
         selectedNodes.clear();
         selectedNodes.add(d.id);
         update(root);
     }
 }
 
-// --- TOOLBAR FUNCTIONS ---
 window.exportLayout = function () {
     const stateStr = localStorage.getItem("treeMapState_" + document.title);
     if (!stateStr) {
@@ -600,4 +555,3 @@ window.resetLayout = function () {
         location.reload();
     }
 };
-
