@@ -236,7 +236,7 @@ function update(source) {
             saveTreeState();
         });
 
-    nodeEnter.call(dragNode);
+    // nodeEnter.call(dragNode);
 
     nodeEnter.append('circle')
         .attr('class', 'main-circle')
