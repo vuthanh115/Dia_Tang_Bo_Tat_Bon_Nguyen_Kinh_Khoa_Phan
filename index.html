@@ -5,27 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Sơ Đồ Địa Tạng Bồ Tát Bổn Nguyện Kinh - Khoa Phán</title>
+
+    <meta property="og:url" content="https://vuthanh115.github.io/Dia_Tang_Bo_Tat_Bon_Nguyen_Kinh_Khoa_Phan/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Sơ Đồ Địa Tạng Bồ Tát Bổn Nguyện Kinh - Khoa Phán" />
+    <meta property="og:description"
+        content="Sơ đồ tư duy hỗ trợ nghiên cứu, tra cứu Kinh Địa Tạng với Hán tự, Pinyin và Hán Việt chi tiết." />
+    <meta property="og:image"
+        content="https://vuthanh115.github.io/Dia_Tang_Bo_Tat_Bon_Nguyen_Kinh_Khoa_Phan/thumbnail.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="toolbar"
-        style="position: absolute; top: 10px; left: 10px; z-index: 1000; display: flex; flex-wrap: wrap; gap: 8px; max-width: 95vw;">
+        style="position: absolute; top: 10px; left: 10px; z-index: 1000; display: flex; flex-wrap: wrap; gap: 8px;">
         <button onclick="exportLayout()"
-            style="padding: 8px 12px; cursor: pointer; background: #007bff; color: #fff; border: none; border-radius: 4px; font-weight: bold;">💾
+            style="padding: 5px 10px; cursor: pointer; background: #007bff; color: #fff; border: none; border-radius: 4px;">💾
             Xuất Layout</button>
         <button onclick="resetLayout()"
-            style="padding: 8px 12px; cursor: pointer; background: #dc3545; color: #fff; border: none; border-radius: 4px; font-weight: bold;">🗑️
-            Reset Gốc</button>
+            style="padding: 5px 10px; cursor: pointer; background: #dc3545; color: #fff; border: none; border-radius: 4px;">🗑️
+            Reset Khôi Phục Gốc</button>
         <button onclick="toggleMobileMode()" id="btn-mobile-mode"
-            style="padding: 8px 12px; cursor: pointer; background: #555; color: #fff; border: none; border-radius: 4px; font-weight: bold;">📲
+            style="padding: 5px 10px; cursor: pointer; background: #555; color: #fff; border: none; border-radius: 4px;">📲
             Chọn Nhiều: TẮT</button>
     </div>
 
     <div id="tree-container"></div>
 
     <script>
+        // Cờ trạng thái chọn nhiều trên mobile
         window.isMobileSelectMode = false;
         function toggleMobileMode() {
             window.isMobileSelectMode = !window.isMobileSelectMode;
