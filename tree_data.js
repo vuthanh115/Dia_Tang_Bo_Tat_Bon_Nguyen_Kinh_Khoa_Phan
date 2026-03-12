@@ -227,7 +227,7 @@ const treeData = {
                 {
                   "char": "重",
                   "pinyin": "Zhòng",
-                  "hv": "Trọng"
+                  "hv": "Trùng"
                 },
                 {
                   "char": "玄",
@@ -240,7 +240,7 @@ const treeData = {
                   "hv": "Nghĩa"
                 }
               ],
-              "meaning": "Ngũ trọng huyền nghĩa",
+              "meaning": "Ngũ Trùng huyền nghĩa",
               "header": "二、",
               "isEmptyNode": false
             },
@@ -655,7 +655,7 @@ const treeData = {
               "hv": "Tán"
             }
           ],
-          "meaning": "Quả (chư Phật)",
+          "meaning": "Quả Nhân Tập Tán",
           "isEmptyNode": false
         }
       ],
@@ -771,7 +771,7 @@ const treeData = {
                             {
                               "char": "正",
                               "pinyin": "Zhèng",
-                              "hv": "Chính"
+                              "hv": "Chánh"
                             },
                             {
                               "char": "集",
@@ -789,7 +789,7 @@ const treeData = {
                               "hv": "Chúng"
                             }
                           ],
-                          "meaning": "Chính tập đại chúng",
+                          "meaning": "Chánh tập đại chúng",
                           "isEmptyNode": false
                         }
                       ],
@@ -984,7 +984,6 @@ const treeData = {
                                         }
                                       ],
                                       "meaning": "Hết thảy các vị thần",
-                                      "header": "一、",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -1197,7 +1196,7 @@ const treeData = {
                                 {
                                   "char": "正",
                                   "pinyin": "Zhèng",
-                                  "hv": "Chính"
+                                  "hv": "Chánh"
                                 },
                                 {
                                   "char": "明",
@@ -1215,7 +1214,7 @@ const treeData = {
                                   "hv": "Âm"
                                 }
                               ],
-                              "meaning": "Chính minh chúng âm",
+                              "meaning": "Chánh minh chúng âm",
                               "isEmptyNode": false
                             }
                           ],
@@ -1387,7 +1386,7 @@ const treeData = {
             {
               "char": "難",
               "pinyin": "Nán",
-              "hv": "Nạn"
+              "hv": "Nan"
             },
             {
               "char": "事",
@@ -1395,7 +1394,7 @@ const treeData = {
               "hv": "Sự"
             }
           ],
-          "meaning": "Đồng thán thích ca nạn sự",
+          "meaning": "Đồng thán thích ca nan sự",
           "isEmptyNode": false
         },
         {
@@ -1782,7 +1781,7 @@ const treeData = {
                                     {
                                       "char": "長",
                                       "pinyin": "Zhǎng",
-                                      "hv": "Trường"
+                                      "hv": "Trưởng"
                                     },
                                     {
                                       "char": "者",
@@ -1835,7 +1834,7 @@ const treeData = {
                                 {
                                   "char": "供",
                                   "pinyin": "Gōng",
-                                  "hv": "Cung"
+                                  "hv": "Cúng"
                                 },
                                 {
                                   "char": "像",
@@ -1853,7 +1852,7 @@ const treeData = {
                                   "hv": "Đức"
                                 }
                               ],
-                              "meaning": "Thị văn tán cung tượng công đức",
+                              "meaning": "chỉ ra công đức do tán thán, cúng dường tượng Bồ Tát",
                               "isEmptyNode": false
                             }
                           ],
@@ -2091,7 +2090,7 @@ const treeData = {
                                             {
                                               "char": "正",
                                               "pinyin": "Zhèng",
-                                              "hv": "Chính"
+                                              "hv": "Chánh"
                                             },
                                             {
                                               "char": "問",
@@ -2114,7 +2113,7 @@ const treeData = {
                                               "hv": "Nguyện"
                                             }
                                           ],
-                                          "meaning": "Chính vấn nhân phát nguyện",
+                                          "meaning": "Chánh vấn nhân phát nguyện",
                                           "isEmptyNode": false
                                         },
                                         {
@@ -2265,7 +2264,7 @@ const treeData = {
                                                 {
                                                   "char": "長",
                                                   "pinyin": "Zhǎng",
-                                                  "hv": "Trường"
+                                                  "hv": "Trưởng"
                                                 },
                                                 {
                                                   "char": "者",
@@ -2273,7 +2272,7 @@ const treeData = {
                                                   "hv": "Giả"
                                                 }
                                               ],
-                                              "meaning": "Phật thị trường giả",
+                                              "meaning": "Phật thị trưởng giả",
                                               "isEmptyNode": false
                                             }
                                           ],
@@ -2283,7 +2282,7 @@ const treeData = {
                                             {
                                               "char": "長",
                                               "pinyin": "Zhǎng",
-                                              "hv": "Trường"
+                                              "hv": "Trưởng"
                                             },
                                             {
                                               "char": "者",
@@ -2301,7 +2300,7 @@ const treeData = {
                                               "hv": "Phật"
                                             }
                                           ],
-                                          "meaning": "Trường giả vấn phật",
+                                          "meaning": "Trưởng giả vấn phật",
                                           "isEmptyNode": false
                                         }
                                       ],
@@ -2413,7 +2412,7 @@ const treeData = {
                                         {
                                           "char": "供",
                                           "pinyin": "Gōng",
-                                          "hv": "Cung"
+                                          "hv": "Cúng"
                                         },
                                         {
                                           "char": "感",
@@ -2421,7 +2420,7 @@ const treeData = {
                                           "hv": "Cảm"
                                         }
                                       ],
-                                      "meaning": "Mại trạch hưng cung cảm",
+                                      "meaning": "Mại trạch hưng cúng cảm",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -2456,7 +2455,7 @@ const treeData = {
                                     {
                                       "char": "正",
                                       "pinyin": "Zhèng",
-                                      "hv": "Chính"
+                                      "hv": "Chánh"
                                     },
                                     {
                                       "char": "見",
@@ -2464,7 +2463,7 @@ const treeData = {
                                       "hv": "Kiến"
                                     }
                                   ],
-                                  "meaning": "Thuật sanh tiền khuyến mẫu chính kiến",
+                                  "meaning": "Thuật sanh tiền khuyến mẫu chánh kiến",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -2474,7 +2473,7 @@ const treeData = {
                                 {
                                   "char": "正",
                                   "pinyin": "Zhèng",
-                                  "hv": "Chính"
+                                  "hv": "Chánh"
                                 },
                                 {
                                   "char": "明",
@@ -2482,7 +2481,7 @@ const treeData = {
                                   "hv": "Minh"
                                 }
                               ],
-                              "meaning": "Chính minh",
+                              "meaning": "Chánh minh",
                               "isEmptyNode": false
                             }
                           ],
@@ -2584,10 +2583,10 @@ const treeData = {
                                     {
                                       "char": "供",
                                       "pinyin": "Gōng",
-                                      "hv": "Cung"
+                                      "hv": "Cúng"
                                     }
                                   ],
-                                  "meaning": "Vi mẫu mại trạch hưng cung",
+                                  "meaning": "Vi mẫu mại trạch hưng cúng",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -2852,7 +2851,7 @@ const treeData = {
                       "hv": "Tín"
                     }
                   ],
-                  "meaning": "Nói rõ chính mình do trí huệ đã tin tưởng [sức thệ nguyện và sự nghiệp hóa độ của Địa Tạng Bồ Tát]",
+                  "meaning": "Nói rõ chính mình do trí huệ đã tin tưởng",
                   "isEmptyNode": false
                 }
               ],
@@ -2976,10 +2975,10 @@ const treeData = {
                             {
                               "char": "撲",
                               "pinyin": "Pū",
-                              "hv": "Phốc"
+                              "hv": "Phát"
                             }
                           ],
-                          "meaning": "Văn thanh tự phốc",
+                          "meaning": "Văn thanh tự phát",
                           "isEmptyNode": false
                         }
                       ],
@@ -3380,7 +3379,7 @@ const treeData = {
                       "hv": "Hạnh"
                     }
                   ],
-                  "meaning": "Tường thuật nhân Địa Tạng Bồ Tát Bổn Nguyện Kinh Khoa Chú 142 hạnh của thánh nữ",
+                  "meaning": "Tường thuật nhân hạnh của thánh nữ",
                   "isEmptyNode": false
                 }
               ],
@@ -3400,7 +3399,7 @@ const treeData = {
                 {
                   "char": "行",
                   "pinyin": "Xíng",
-                  "hv": "Hạnh"
+                  "hv": "Hành"
                 },
                 {
                   "char": "因",
@@ -3413,7 +3412,7 @@ const treeData = {
                   "hv": "Sự"
                 }
               ],
-              "meaning": "Cử sở hạnh nhân sự",
+              "meaning": "nêu ra chuyện đã làm trong lúc tu nhân",
               "isEmptyNode": false
             },
             {
@@ -4348,7 +4347,7 @@ const treeData = {
                                 {
                                   "char": "正",
                                   "pinyin": "Zhèng",
-                                  "hv": "Chính"
+                                  "hv": "Chánh"
                                 },
                                 {
                                   "char": "答",
@@ -4356,7 +4355,7 @@ const treeData = {
                                   "hv": "Đáp"
                                 }
                               ],
-                              "meaning": "Chính đáp",
+                              "meaning": "Chánh đáp",
                               "isEmptyNode": false
                             }
                           ],
@@ -4457,10 +4456,10 @@ const treeData = {
                     {
                       "char": "不",
                       "pinyin": "Bù",
-                      "hv": "Bất"
+                      "hv": "Phủ"
                     }
                   ],
-                  "meaning": "Vấn đáp ngục sự thật bất",
+                  "meaning": "hỏi đáp địa ngục có hay không",
                   "isEmptyNode": false
                 },
                 {
@@ -4544,7 +4543,7 @@ const treeData = {
                     {
                       "char": "正",
                       "pinyin": "Zhèng",
-                      "hv": "Chính"
+                      "hv": "Chánh"
                     },
                     {
                       "char": "問",
@@ -4562,7 +4561,7 @@ const treeData = {
                       "hv": "Mẫu"
                     }
                   ],
-                  "meaning": "Chính vấn ngã mẫu",
+                  "meaning": "Chánh vấn ngã mẫu",
                   "isEmptyNode": false
                 },
                 {
@@ -4715,7 +4714,7 @@ const treeData = {
                                       "hv": "Thiên"
                                     }
                                   ],
-                                  "meaning": "Nói Địa Tạng Bồ Tát Bổn Nguyện Kinh Khoa Chú 173 rõ tội nữ đã sanh lên trời",
+                                  "meaning": "Sanh Thiên",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -4773,10 +4772,10 @@ const treeData = {
                                     {
                                       "char": "退",
                                       "pinyin": "Tuì",
-                                      "hv": "Thối"
+                                      "hv": "Thoái"
                                     }
                                   ],
-                                  "meaning": "Ngôn tất nhi thối",
+                                  "meaning": "Ngôn tất nhi thoái",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -4786,7 +4785,7 @@ const treeData = {
                                 {
                                   "char": "正",
                                   "pinyin": "Zhèng",
-                                  "hv": "Chính"
+                                  "hv": "Chánh"
                                 },
                                 {
                                   "char": "說",
@@ -4804,7 +4803,7 @@ const treeData = {
                                   "hv": "Do"
                                 }
                               ],
-                              "meaning": "Chính thuyết kỳ do",
+                              "meaning": "Chánh thuyết kỳ do",
                               "isEmptyNode": false
                             },
                             {
@@ -4894,7 +4893,7 @@ const treeData = {
                                       "hv": "Thiên"
                                     }
                                   ],
-                                  "meaning": "Nói Địa Tạng Bồ Tát Bổn Nguyện Kinh Khoa Chú 173 rõ tội nữ đã sanh lên trời",
+                                  "meaning": " tội nữ đã sanh lên trời",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -4978,7 +4977,7 @@ const treeData = {
                           "hv": "Vấn"
                         }
                       ],
-                      "meaning": "Kinh",
+                      "meaning": "Hỏi",
                       "isEmptyNode": false
                     }
                   ],
@@ -5288,7 +5287,7 @@ const treeData = {
                                             {
                                               "char": "正",
                                               "pinyin": "Zhèng",
-                                              "hv": "Chính"
+                                              "hv": "Chánh"
                                             },
                                             {
                                               "char": "領",
@@ -5296,7 +5295,7 @@ const treeData = {
                                               "hv": "Lĩnh"
                                             }
                                           ],
-                                          "meaning": "Địa tạng chính lĩnh",
+                                          "meaning": "Địa tạng chánh lĩnh",
                                           "isEmptyNode": false
                                         },
                                         {
@@ -5766,7 +5765,7 @@ const treeData = {
                                                     {
                                                       "char": "分",
                                                       "pinyin": "Fēn",
-                                                      "hv": "Phần"
+                                                      "hv": "Phân"
                                                     },
                                                     {
                                                       "char": "身",
@@ -5784,7 +5783,7 @@ const treeData = {
                                                       "hv": "Thoát"
                                                     }
                                                   ],
-                                                  "meaning": "Nói riêng",
+                                                  "meaning": "Nói riêng về sự độ thoát của các phân thân",
                                                   "isEmptyNode": false
                                                 },
                                                 {
@@ -5830,7 +5829,7 @@ const treeData = {
                                                         {
                                                           "char": "分",
                                                           "pinyin": "Fēn",
-                                                          "hv": "Phần"
+                                                          "hv": "Phân"
                                                         },
                                                         {
                                                           "char": "身",
@@ -5848,7 +5847,7 @@ const treeData = {
                                                           "hv": "Nhân"
                                                         }
                                                       ],
-                                                      "meaning": "Phần thân độ nhân",
+                                                      "meaning": "Phân thân độ nhân",
                                                       "isEmptyNode": false
                                                     },
                                                     {
@@ -6135,7 +6134,7 @@ const treeData = {
                                 {
                                   "char": "供",
                                   "pinyin": "Gōng",
-                                  "hv": "Cung"
+                                  "hv": "Cúng"
                                 },
                                 {
                                   "char": "佛",
@@ -6143,7 +6142,7 @@ const treeData = {
                                   "hv": "Phật"
                                 }
                               ],
-                              "meaning": "Suất chúng đồng lai cung phật",
+                              "meaning": "Suất chúng đồng lai cúng Phật",
                               "isEmptyNode": false
                             },
                             {
@@ -6211,7 +6210,7 @@ const treeData = {
                               "hv": "Tạng"
                             }
                           ],
-                          "meaning": "Tự phần thân địa tạng",
+                          "meaning": "Tự phân thân địa tạng",
                           "isEmptyNode": false
                         }
                       ],
@@ -6314,7 +6313,7 @@ const treeData = {
                                         {
                                           "char": "載",
                                           "pinyin": "Zài",
-                                          "hv": "Tải"
+                                          "hv": "Tái"
                                         },
                                         {
                                           "char": "答",
@@ -6322,7 +6321,7 @@ const treeData = {
                                           "hv": "Đáp"
                                         }
                                       ],
-                                      "meaning": "Địa tạng tải đáp",
+                                      "meaning": "Địa tạng tái đáp",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -6436,10 +6435,10 @@ const treeData = {
                                                 {
                                                   "char": "退",
                                                   "pinyin": "Tuì",
-                                                  "hv": "Thối"
+                                                  "hv": "Thoái"
                                                 }
                                               ],
-                                              "meaning": "Thánh mẫu lễ thối",
+                                              "meaning": "Thánh mẫu lễ thoái",
                                               "isEmptyNode": false
                                             },
                                             {
@@ -6524,7 +6523,7 @@ const treeData = {
                                                     {
                                                       "char": "重",
                                                       "pinyin": "Zhòng",
-                                                      "hv": "Trọng"
+                                                      "hv": "Trùng"
                                                     },
                                                     {
                                                       "char": "問",
@@ -6539,7 +6538,7 @@ const treeData = {
                                                     {
                                                       "char": "間",
                                                       "pinyin": "Jiān",
-                                                      "hv": "Gian"
+                                                      "hv": "Gián"
                                                     },
                                                     {
                                                       "char": "獄",
@@ -6552,7 +6551,7 @@ const treeData = {
                                                       "hv": "Danh"
                                                     }
                                                   ],
-                                                  "meaning": "Trọng vấn vô gian ngục danh",
+                                                  "meaning": "Trùng vấn vô gián ngục danh",
                                                   "isEmptyNode": false
                                                 }
                                               ],
@@ -6562,7 +6561,7 @@ const treeData = {
                                                 {
                                                   "char": "正",
                                                   "pinyin": "Zhèng",
-                                                  "hv": "Chính"
+                                                  "hv": "Chánh"
                                                 },
                                                 {
                                                   "char": "答",
@@ -6590,7 +6589,7 @@ const treeData = {
                                                   "hv": "Báo"
                                                 }
                                               ],
-                                              "meaning": "Chính đáp diêm phù tội báo",
+                                              "meaning": "Chánh đáp diêm phù tội báo",
                                               "isEmptyNode": false
                                             },
                                             {
@@ -6834,7 +6833,7 @@ const treeData = {
                                                             {
                                                               "char": "間",
                                                               "pinyin": "Jiān",
-                                                              "hv": "Gian"
+                                                              "hv": "Gián"
                                                             }
                                                           ],
                                                           "meaning": "Nói riêng",
@@ -6865,7 +6864,7 @@ const treeData = {
                                                           "hv": "Ô"
                                                         }
                                                       ],
-                                                      "meaning": "Kinh",
+                                                      "meaning": "Xâm Tổn Dâm Ô",
                                                       "isEmptyNode": false
                                                     }
                                                   ],
@@ -6893,7 +6892,7 @@ const treeData = {
                                                       "hv": "Bảo"
                                                     }
                                                   ],
-                                                  "meaning": "Kinh",
+                                                  "meaning": "Kính Tam Bảo",
                                                   "isEmptyNode": false
                                                 }
                                               ],
@@ -6987,7 +6986,7 @@ const treeData = {
                                     {
                                       "char": "重",
                                       "pinyin": "Zhòng",
-                                      "hv": "Trọng"
+                                      "hv": "Trùng"
                                     },
                                     {
                                       "char": "白",
@@ -6995,7 +6994,7 @@ const treeData = {
                                       "hv": "Bạch"
                                     }
                                   ],
-                                  "meaning": "Thánh mẫu trọng bạch",
+                                  "meaning": "Thánh mẫu trùng bạch",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -7128,7 +7127,7 @@ const treeData = {
                                 {
                                   "char": "重",
                                   "pinyin": "Zhòng",
-                                  "hv": "Trọng"
+                                  "hv": "Trùng"
                                 },
                                 {
                                   "char": "示",
@@ -7146,7 +7145,7 @@ const treeData = {
                                   "hv": "Cảm"
                                 }
                               ],
-                              "meaning": "Trọng thị nghiệp cảm",
+                              "meaning": "Trùng thị nghiệp cảm",
                               "isEmptyNode": false
                             },
                             {
@@ -7165,7 +7164,7 @@ const treeData = {
                             {
                               "char": "正",
                               "pinyin": "Zhèng",
-                              "hv": "Chính"
+                              "hv": "Chánh"
                             },
                             {
                               "char": "明",
@@ -7183,7 +7182,7 @@ const treeData = {
                               "hv": "Báo"
                             }
                           ],
-                          "meaning": "Chính minh nghiệp báo",
+                          "meaning": "Chánh minh nghiệp báo",
                           "isEmptyNode": false
                         },
                         {
@@ -7267,7 +7266,7 @@ const treeData = {
                             {
                               "char": "正",
                               "pinyin": "Zhèng",
-                              "hv": "Chính"
+                              "hv": "Chánh"
                             },
                             {
                               "char": "開",
@@ -7275,7 +7274,7 @@ const treeData = {
                               "hv": "Khai"
                             }
                           ],
-                          "meaning": "Chính khai",
+                          "meaning": "Chánh khai",
                           "isEmptyNode": false
                         }
                       ],
@@ -7361,10 +7360,10 @@ const treeData = {
                                                     {
                                                       "char": "間",
                                                       "pinyin": "Jiān",
-                                                      "hv": "Gian"
+                                                      "hv": "Gián"
                                                     }
                                                   ],
-                                                  "meaning": "Mạng vô gian",
+                                                  "meaning": "Mạng vô gián",
                                                   "isEmptyNode": false
                                                 }
                                               ],
@@ -7384,10 +7383,10 @@ const treeData = {
                                                 {
                                                   "char": "間",
                                                   "pinyin": "Jiān",
-                                                  "hv": "Gian"
+                                                  "hv": "Gián"
                                                 }
                                               ],
-                                              "meaning": "Quả vô gian",
+                                              "meaning": "Quả vô gián",
                                               "isEmptyNode": false
                                             }
                                           ],
@@ -7407,10 +7406,10 @@ const treeData = {
                                             {
                                               "char": "間",
                                               "pinyin": "Jiān",
-                                              "hv": "Gian"
+                                              "hv": "Gián"
                                             }
                                           ],
-                                          "meaning": "Khổ vô gian",
+                                          "meaning": "Khổ vô gián",
                                           "isEmptyNode": false
                                         }
                                       ],
@@ -7430,10 +7429,10 @@ const treeData = {
                                         {
                                           "char": "間",
                                           "pinyin": "Jiān",
-                                          "hv": "Gian"
+                                          "hv": "Gián"
                                         }
                                       ],
-                                      "meaning": "Hình vô gian",
+                                      "meaning": "Hình vô gián",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -7453,10 +7452,10 @@ const treeData = {
                                     {
                                       "char": "間",
                                       "pinyin": "Jiān",
-                                      "hv": "Gian"
+                                      "hv": "Gián"
                                     }
                                   ],
-                                  "meaning": "Thời vô gian",
+                                  "meaning": "Thời vô gián",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -7974,7 +7973,7 @@ const treeData = {
                     {
                       "char": "正",
                       "pinyin": "Zhèng",
-                      "hv": "Chính"
+                      "hv": "Chánh"
                     },
                     {
                       "char": "說",
@@ -8017,7 +8016,7 @@ const treeData = {
                       "hv": " "
                     }
                   ],
-                  "meaning": "Chính thuyết phần nhị chí thập phẩm",
+                  "meaning": "Chánh thuyết phần nhị chí thập phẩm",
                   "isEmptyNode": false
                 }
               ],
@@ -8030,7 +8029,7 @@ const treeData = {
                   "hv": "Vấn"
                 }
               ],
-              "meaning": "Kinh",
+              "meaning": "Hỏi",
               "isEmptyNode": false
             },
             {
@@ -8099,7 +8098,7 @@ const treeData = {
                               "hv": "Nguyện"
                             }
                           ],
-                          "meaning": "Ngài Định Tự Tại Vương hỏi trong bao kiếp [Địa Tạng Bồ Tát] đã phát nguyện gì",
+                          "meaning": "Ngài Định Tự Tại Vương hỏi trong bao kiếp đã phát nguyện gì",
                           "isEmptyNode": false
                         }
                       ],
@@ -8124,10 +8123,10 @@ const treeData = {
                         {
                           "char": "累",
                           "pinyin": "Lèi",
-                          "hv": "Lụy"
+                          "hv": "Lũy"
                         }
                       ],
-                      "meaning": "Tự tại vấn lụy",
+                      "meaning": "Tự tại vấn lũy",
                       "isEmptyNode": false
                     }
                   ],
@@ -8147,7 +8146,7 @@ const treeData = {
                     {
                       "char": "重",
                       "pinyin": "Zhòng",
-                      "hv": "Trọng"
+                      "hv": "Trùng"
                     },
                     {
                       "char": "述",
@@ -8165,7 +8164,7 @@ const treeData = {
                       "hv": "Chúc"
                     }
                   ],
-                  "meaning": "Địa tạng trọng thuật phó chúc",
+                  "meaning": "Địa tạng trùng thuật phó chúc",
                   "isEmptyNode": false
                 },
                 {
@@ -8414,7 +8413,8 @@ const treeData = {
                               "char": "定",
                               "pinyin": "Dìng",
                               "hv": "Định"
-                            }
+                            },
+
                           ],
                           "meaning": "Tánh của chúng sanh bất định",
                           "isEmptyNode": false
@@ -8530,7 +8530,7 @@ const treeData = {
                                         {
                                           "char": "正",
                                           "pinyin": "Zhèng",
-                                          "hv": "Chính"
+                                          "hv": "Chánh"
                                         },
                                         {
                                           "char": "明",
@@ -8558,7 +8558,7 @@ const treeData = {
                                           "hv": "Ích"
                                         }
                                       ],
-                                      "meaning": "Chính minh tích nguyện lợi ích",
+                                      "meaning": "Chánh minh tích nguyện lợi ích",
                                       "isEmptyNode": false
                                     },
                                     {
@@ -8810,13 +8810,8 @@ const treeData = {
                                   "page": 9,
                                   "x": 250.7541732788086,
                                   "words": [
-                                    {
-                                      "char": "願",
-                                      "pinyin": "Yuàn",
-                                      "hv": "Nguyện"
-                                    }
+
                                   ],
-                                  "meaning": "Xin đức Phật hãy nói hạnh nguyện của Địa Tạng Bồ Tát",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -8842,9 +8837,14 @@ const treeData = {
                                   "char": "發",
                                   "pinyin": "Fā",
                                   "hv": "Phát"
+                                },
+                                {
+                                  "char": "願",
+                                  "pinyin": "Yuàn",
+                                  "hv": "Nguyện"
                                 }
                               ],
-                              "meaning": "Thuật lời phát Địa Tạng Bồ Tát Bổn Nguyện Kinh Khoa Chú 255 nguyện của hai vị vua",
+                              "meaning": "Thuật lời phát nguyện của hai vị vua",
                               "isEmptyNode": false
                             },
                             {
@@ -9078,7 +9078,7 @@ const treeData = {
                                     {
                                       "char": "正",
                                       "pinyin": "Zhèng",
-                                      "hv": "Chính"
+                                      "hv": "Chánh"
                                     },
                                     {
                                       "char": "發",
@@ -9091,7 +9091,7 @@ const treeData = {
                                       "hv": "Nguyện"
                                     }
                                   ],
-                                  "meaning": "Chính phát nguyện",
+                                  "meaning": "Chánh phát nguyện",
                                   "isEmptyNode": false
                                 },
                                 {
@@ -9161,7 +9161,6 @@ const treeData = {
                                         }
                                       ],
                                       "meaning": "Nhất vương tiên độ chúng sanh",
-                                      "header": "一、",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -9200,7 +9199,6 @@ const treeData = {
                                     }
                                   ],
                                   "meaning": "Nhất vương tự tiên thành phật",
-                                  "header": "一、",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -9377,7 +9375,7 @@ const treeData = {
                                 {
                                   "char": "更",
                                   "pinyin": "Gèng",
-                                  "hv": "Canh"
+                                  "hv": "Cánh"
                                 },
                                 {
                                   "char": "立",
@@ -9395,7 +9393,7 @@ const treeData = {
                                   "hv": "Nguyện"
                                 }
                               ],
-                              "meaning": "Thiên vương vấn hà canh lập thệ nguyện",
+                              "meaning": "Thiên vương hỏi vì sao Bồ Tát còn lập thệ nguyện",
                               "isEmptyNode": false
                             },
                             {
@@ -9434,7 +9432,7 @@ const treeData = {
                                                 {
                                                   "char": "已",
                                                   "pinyin": "Yǐ",
-                                                  "hv": "Kỷ"
+                                                  "hv": "Dĩ"
                                                 },
                                                 {
                                                   "char": "悲",
@@ -9447,7 +9445,7 @@ const treeData = {
                                                   "hv": "Thối"
                                                 }
                                               ],
-                                              "meaning": "Thiên vương văn kỷ bi thối",
+                                              "meaning": "Thiên vương văn dĩ bi thối",
                                               "isEmptyNode": false
                                             },
                                             {
@@ -9515,7 +9513,7 @@ const treeData = {
                                       "hv": "Vấn"
                                     }
                                   ],
-                                  "meaning": "Kinh",
+                                  "meaning": "Hỏi",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -9575,7 +9573,7 @@ const treeData = {
                                                     {
                                                       "char": "正",
                                                       "pinyin": "Zhèng",
-                                                      "hv": "Chính"
+                                                      "hv": "Chánh"
                                                     },
                                                     {
                                                       "char": "告",
@@ -9583,7 +9581,7 @@ const treeData = {
                                                       "hv": "Cáo"
                                                     }
                                                   ],
-                                                  "meaning": "Chính cáo",
+                                                  "meaning": "Chánh cáo",
                                                   "isEmptyNode": false
                                                 }
                                               ],
@@ -9741,7 +9739,7 @@ const treeData = {
                         {
                           "char": "正",
                           "pinyin": "Zhèng",
-                          "hv": "Chính"
+                          "hv": "Chánh"
                         },
                         {
                           "char": "問",
@@ -9749,7 +9747,7 @@ const treeData = {
                           "hv": "Vấn"
                         }
                       ],
-                      "meaning": "Đương cơ chính vấn",
+                      "meaning": "Đương cơ chánh vấn",
                       "isEmptyNode": false
                     }
                   ],
@@ -9775,7 +9773,17 @@ const treeData = {
                       "char": "力",
                       "pinyin": "Lì",
                       "hv": "Lực"
-                    }
+                    },
+                    {
+                      "char": "分",
+                      "pinyin": "Fēn",
+                      "hv": "Phân"
+                    },
+                    {
+                      "char": "化",
+                      "pinyin": "Huà",
+                      "hv": "Hóa"
+                    },
                   ],
                   "meaning": "Xưa kia đã nhờ Phật lực mà phân thân hóa độ",
                   "isEmptyNode": false
@@ -9888,7 +9896,7 @@ const treeData = {
                 {
                   "char": "重",
                   "pinyin": "Zhòng",
-                  "hv": "Trọng"
+                  "hv": "Trùng"
                 },
                 {
                   "char": "發",
@@ -9906,7 +9914,7 @@ const treeData = {
                   "hv": "Ý"
                 }
               ],
-              "meaning": "Lược thị trọng phát nguyện ý",
+              "meaning": "Lược thị trùng phát nguyện ý",
               "isEmptyNode": false
             },
             {
@@ -10263,7 +10271,7 @@ const treeData = {
                             {
                               "char": "正",
                               "pinyin": "Zhèng",
-                              "hv": "Chính"
+                              "hv": "Chánh"
                             },
                             {
                               "char": "明",
@@ -10291,7 +10299,7 @@ const treeData = {
                               "hv": "Hóa"
                             }
                           ],
-                          "meaning": "Chính minh tùy cơ thuyết hóa",
+                          "meaning": "Chánh minh tùy cơ thuyết hóa",
                           "isEmptyNode": false
                         }
                       ],
@@ -10620,13 +10628,8 @@ const treeData = {
                               "page": 11,
                               "x": 103.07760238647461,
                               "words": [
-                                {
-                                  "char": "女",
-                                  "pinyin": "Nǚ",
-                                  "hv": "Nữ"
-                                }
+
                               ],
-                              "meaning": "Nữ",
                               "isEmptyNode": false
                             },
                             {
@@ -10661,6 +10664,11 @@ const treeData = {
                               "char": "孝",
                               "pinyin": "Xiào",
                               "hv": "Hiếu"
+                            },
+                            {
+                              "char": "女",
+                              "pinyin": "Nǚ",
+                              "hv": "Nữ"
                             }
                           ],
                           "meaning": "Thuật chuyện gặp người con gái có hiếu",
@@ -11424,7 +11432,7 @@ const treeData = {
                                 {
                                   "char": "供",
                                   "pinyin": "Gōng",
-                                  "hv": "Cung"
+                                  "hv": "Cúng"
                                 },
                                 {
                                   "char": "禮",
@@ -11432,7 +11440,7 @@ const treeData = {
                                   "hv": "Lễ"
                                 }
                               ],
-                              "meaning": "Họa tượng cung lễ",
+                              "meaning": "Họa tượng cúng lễ",
                               "isEmptyNode": false
                             }
                           ],
@@ -11507,7 +11515,7 @@ const treeData = {
                     {
                       "char": "正",
                       "pinyin": "Zhèng",
-                      "hv": "Chính"
+                      "hv": "Chánh"
                     },
                     {
                       "char": "問",
@@ -11525,7 +11533,7 @@ const treeData = {
                       "hv": "Tội"
                     }
                   ],
-                  "meaning": "Chính vấn bổn tội",
+                  "meaning": "Chánh vấn bổn tội",
                   "isEmptyNode": false
                 }
               ],
@@ -12143,7 +12151,7 @@ const treeData = {
                                     {
                                       "char": "正",
                                       "pinyin": "Zhèng",
-                                      "hv": "Chính"
+                                      "hv": "Chánh"
                                     },
                                     {
                                       "char": "示",
@@ -12171,7 +12179,7 @@ const treeData = {
                                       "hv": "Báo"
                                     }
                                   ],
-                                  "meaning": "Chính thị ác nghiệp cảm báo",
+                                  "meaning": "Chánh thị ác nghiệp cảm báo",
                                   "isEmptyNode": false
                                 },
                                 {
@@ -12507,7 +12515,7 @@ const treeData = {
                                             {
                                               "char": "正",
                                               "pinyin": "Zhèng",
-                                              "hv": "Chính"
+                                              "hv": "Chánh"
                                             },
                                             {
                                               "char": "舉",
@@ -12515,7 +12523,7 @@ const treeData = {
                                               "hv": "Cử"
                                             }
                                           ],
-                                          "meaning": "Chính cử",
+                                          "meaning": "Chánh cử",
                                           "isEmptyNode": false
                                         }
                                       ],
@@ -12665,7 +12673,7 @@ const treeData = {
                                 {
                                   "char": "正",
                                   "pinyin": "Zhèng",
-                                  "hv": "Chính"
+                                  "hv": "Chánh"
                                 },
                                 {
                                   "char": "主",
@@ -12683,7 +12691,7 @@ const treeData = {
                                   "hv": "Ngục"
                                 }
                               ],
-                              "meaning": "Chính chủ địa ngục",
+                              "meaning": "Chánh chủ địa ngục",
                               "isEmptyNode": false
                             }
                           ],
@@ -13132,7 +13140,7 @@ const treeData = {
                                 {
                                   "char": "正",
                                   "pinyin": "Zhèng",
-                                  "hv": "Chính"
+                                  "hv": "Chánh"
                                 },
                                 {
                                   "char": "答",
@@ -13140,7 +13148,7 @@ const treeData = {
                                   "hv": "Đáp"
                                 }
                               ],
-                              "meaning": "Như lai chính đáp",
+                              "meaning": "Như lai chánh đáp",
                               "isEmptyNode": false
                             },
                             {
@@ -13611,7 +13619,7 @@ const treeData = {
                                         {
                                           "char": "正",
                                           "pinyin": "Zhèng",
-                                          "hv": "Chính"
+                                          "hv": "Chánh"
                                         },
                                         {
                                           "char": "請",
@@ -13629,7 +13637,7 @@ const treeData = {
                                           "hv": "Danh"
                                         }
                                       ],
-                                      "meaning": "Chính thỉnh kinh danh",
+                                      "meaning": "Chánh thỉnh kinh danh",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -14035,7 +14043,7 @@ const treeData = {
                                         {
                                           "char": "正",
                                           "pinyin": "Zhèng",
-                                          "hv": "Chính"
+                                          "hv": "Chánh"
                                         },
                                         {
                                           "char": "示",
@@ -14043,7 +14051,7 @@ const treeData = {
                                           "hv": "Thị"
                                         }
                                       ],
-                                      "meaning": "Chính thị",
+                                      "meaning": "Chánh thị",
                                       "isEmptyNode": false
                                     },
                                     {
@@ -14119,7 +14127,7 @@ const treeData = {
                                     {
                                       "char": "樂",
                                       "pinyin": "Lè",
-                                      "hv": "Lạc"
+                                      "hv": "Nhạc"
                                     },
                                     {
                                       "char": "讚",
@@ -14129,7 +14137,7 @@ const treeData = {
                                     {
                                       "char": "供",
                                       "pinyin": "Gōng",
-                                      "hv": "Cung"
+                                      "hv": "Cúng"
                                     },
                                     {
                                       "char": "福",
@@ -14137,7 +14145,7 @@ const treeData = {
                                       "hv": "Phước"
                                     }
                                   ],
-                                  "meaning": "Kỹ lạc tán cung phước",
+                                  "meaning": "Kỹ nhạc tán cúng phước",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -14157,7 +14165,7 @@ const treeData = {
                                 {
                                   "char": "供",
                                   "pinyin": "Gōng",
-                                  "hv": "Cung"
+                                  "hv": "Cúng"
                                 },
                                 {
                                   "char": "像",
@@ -14170,7 +14178,7 @@ const treeData = {
                                   "hv": "Phước"
                                 }
                               ],
-                              "meaning": "Yếm nữ cung tượng phước",
+                              "meaning": "Yếm nữ cúng tượng phước",
                               "isEmptyNode": false
                             }
                           ],
@@ -14309,7 +14317,7 @@ const treeData = {
                                     {
                                       "char": "正",
                                       "pinyin": "Zhèng",
-                                      "hv": "Chính"
+                                      "hv": "Chánh"
                                     },
                                     {
                                       "char": "示",
@@ -14327,7 +14335,7 @@ const treeData = {
                                       "hv": "Quỹ"
                                     }
                                   ],
-                                  "meaning": "Chính thị phương quỹ",
+                                  "meaning": "Chánh thị phương quỹ",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -14585,7 +14593,7 @@ const treeData = {
                     {
                       "char": "供",
                       "pinyin": "Gōng",
-                      "hv": "Cung"
+                      "hv": "Cúng"
                     },
                     {
                       "char": "像",
@@ -14603,7 +14611,7 @@ const treeData = {
                       "hv": "Báo"
                     }
                   ],
-                  "meaning": "Chuyển đổi quả báo",
+                  "meaning": "chán nhàm thân nữ, do cúng dường tượng mà chuyển báo",
                   "isEmptyNode": false
                 }
               ],
@@ -14613,7 +14621,7 @@ const treeData = {
                 {
                   "char": "正",
                   "pinyin": "Zhèng",
-                  "hv": "Chính"
+                  "hv": "Chánh"
                 },
                 {
                   "char": "結",
@@ -14641,7 +14649,7 @@ const treeData = {
                   "hv": "Ích"
                 }
               ],
-              "meaning": "Chính kết địa tạng lợi ích",
+              "meaning": "Chánh kết địa tạng lợi ích",
               "isEmptyNode": false
             },
             {
@@ -15021,7 +15029,7 @@ const treeData = {
                           "hv": "Nữ"
                         }
                       ],
-                      "meaning": "[trường hợp] người nữ đó chẳng mong chuyển thân nữ",
+                      "meaning": "người nữ đó chẳng mong chuyển thân nữ",
                       "isEmptyNode": false
                     }
                   ],
@@ -15238,7 +15246,7 @@ const treeData = {
                                           "hv": "Ích"
                                         }
                                       ],
-                                      "meaning": "Tiểu kết phần lợi ích Địa Tạng Bồ Tát Bổn Nguyện Kinh Khoa Chú 392 chuyển đổi quả báo",
+                                      "meaning": "Tiểu kết phần lợi ích chuyển đổi quả báo",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -15393,7 +15401,7 @@ const treeData = {
                 {
                   "char": "供",
                   "pinyin": "Gōng",
-                  "hv": "Cung"
+                  "hv": "Cúng"
                 },
                 {
                   "char": "像",
@@ -15401,7 +15409,7 @@ const treeData = {
                   "hv": "Tượng"
                 }
               ],
-              "meaning": "Minh cung tượng",
+              "meaning": "Minh cúng tượng",
               "isEmptyNode": false
             },
             {
@@ -15557,7 +15565,7 @@ const treeData = {
                             {
                               "char": "殃",
                               "pinyin": "Yāng",
-                              "hv": "Hại"
+                              "hv": "Ương"
                             },
                             {
                               "char": "增",
@@ -15570,7 +15578,7 @@ const treeData = {
                               "hv": "Thọ"
                             }
                           ],
-                          "meaning": "Thoát hại tăng thọ",
+                          "meaning": "Thoát ương tăng thọ",
                           "isEmptyNode": false
                         }
                       ],
@@ -15716,7 +15724,7 @@ const treeData = {
                             {
                               "char": "正",
                               "pinyin": "Zhèng",
-                              "hv": "Chính"
+                              "hv": "Chánh"
                             },
                             {
                               "char": "示",
@@ -15754,7 +15762,7 @@ const treeData = {
                               "hv": "Phước"
                             }
                           ],
-                          "meaning": "Làm phước",
+                          "meaning": "do quen thói ác, hãy nên làm phước",
                           "isEmptyNode": false
                         }
                       ],
@@ -15774,7 +15782,7 @@ const treeData = {
                         {
                           "char": "正",
                           "pinyin": "Zhèng",
-                          "hv": "Chính"
+                          "hv": "Chánh"
                         },
                         {
                           "char": "明",
@@ -15782,7 +15790,7 @@ const treeData = {
                           "hv": "Minh"
                         }
                       ],
-                      "meaning": "Địa tạng chính minh",
+                      "meaning": "Địa tạng chánh minh",
                       "isEmptyNode": false
                     },
                     {
@@ -15862,7 +15870,7 @@ const treeData = {
                           "hv": "Tăng"
                         }
                       ],
-                      "meaning": "Thông thị chúng sanh thiện thối ác tăng",
+                      "meaning": "Thông thường, chúng sanh lui sụt điều lành, tăng trưởng điều ác)",
                       "isEmptyNode": false
                     },
                     {
@@ -16092,7 +16100,7 @@ const treeData = {
                                             {
                                               "char": "正",
                                               "pinyin": "Zhèng",
-                                              "hv": "Chính"
+                                              "hv": "Chánh"
                                             },
                                             {
                                               "char": "勸",
@@ -16100,7 +16108,7 @@ const treeData = {
                                               "hv": "Khuyến"
                                             }
                                           ],
-                                          "meaning": "Nhiếp tiền chính khuyến",
+                                          "meaning": "Nhiếp tiền chánh khuyến",
                                           "isEmptyNode": false
                                         }
                                       ],
@@ -16257,7 +16265,7 @@ const treeData = {
                                                             {
                                                               "char": "更",
                                                               "pinyin": "Gèng",
-                                                              "hv": "Canh"
+                                                              "hv": "Cánh"
                                                             },
                                                             {
                                                               "char": "增",
@@ -16270,7 +16278,7 @@ const treeData = {
                                                               "hv": "Nghiệp"
                                                             }
                                                           ],
-                                                          "meaning": "Ưng thọ ác giả canh tăng nghiệp",
+                                                          "meaning": "người đáng phải chịu ác, sẽ tăng thêm nghiệp",
                                                           "isEmptyNode": false
                                                         },
                                                         {
@@ -16323,23 +16331,8 @@ const treeData = {
                                                       "page": 16,
                                                       "x": 404.63755798339844,
                                                       "words": [
-                                                        {
-                                                          "char": "反",
-                                                          "pinyin": "Fǎn",
-                                                          "hv": "Phản"
-                                                        },
-                                                        {
-                                                          "char": "得",
-                                                          "pinyin": "Dé",
-                                                          "hv": "Đắc"
-                                                        },
-                                                        {
-                                                          "char": "惡",
-                                                          "pinyin": "È",
-                                                          "hv": "Ác"
-                                                        }
+
                                                       ],
-                                                      "meaning": "Người đáng lẽ được hưởng quả báo lành đâm ra mắc phải quả báo ác",
                                                       "isEmptyNode": false
                                                     }
                                                   ],
@@ -16365,6 +16358,21 @@ const treeData = {
                                                       "char": "者",
                                                       "pinyin": "Zhě",
                                                       "hv": "Giả"
+                                                    },
+                                                    {
+                                                      "char": "反",
+                                                      "pinyin": "Fǎn",
+                                                      "hv": "Phản"
+                                                    },
+                                                    {
+                                                      "char": "得",
+                                                      "pinyin": "Dé",
+                                                      "hv": "Đắc"
+                                                    },
+                                                    {
+                                                      "char": "惡",
+                                                      "pinyin": "È",
+                                                      "hv": "Ác"
                                                     }
                                                   ],
                                                   "meaning": "Người đáng lẽ được hưởng quả báo lành đâm ra mắc phải quả báo ác",
@@ -16634,7 +16642,7 @@ const treeData = {
                                 {
                                   "char": "長",
                                   "pinyin": "Zhǎng",
-                                  "hv": "Trường"
+                                  "hv": "Trưởng"
                                 },
                                 {
                                   "char": "者",
@@ -16652,7 +16660,7 @@ const treeData = {
                                   "hv": "Thối"
                                 }
                               ],
-                              "meaning": "Trường giả lễ thối",
+                              "meaning": "Trưởng giả lễ thối",
                               "isEmptyNode": false
                             }
                           ],
@@ -17030,7 +17038,7 @@ const treeData = {
                                                           "hv": "Lợi"
                                                         }
                                                       ],
-                                                      "meaning": "Kết tồn vong lợi",
+                                                      "meaning": "tổng kết về sự ích lợi cho kẻ còn, người mất",
                                                       "isEmptyNode": false
                                                     }
                                                   ],
@@ -17045,7 +17053,7 @@ const treeData = {
                                                     {
                                                       "char": "供",
                                                       "pinyin": "Gōng",
-                                                      "hv": "Cung"
+                                                      "hv": "Cúng"
                                                     },
                                                     {
                                                       "char": "養",
@@ -17058,7 +17066,7 @@ const treeData = {
                                                       "hv": "Lực"
                                                     }
                                                   ],
-                                                  "meaning": "Minh cung dường lực",
+                                                  "meaning": "nói về sức cúng dường",
                                                   "isEmptyNode": false
                                                 }
                                               ],
@@ -17207,10 +17215,10 @@ const treeData = {
                                     {
                                       "char": "德",
                                       "pinyin": "Dé",
-                                      "hv": "Đức"
+                                      "hv": "Đắc"
                                     }
                                   ],
-                                  "meaning": "Phản hiển tự tu tất đức",
+                                  "meaning": "Tự tu tập thì đều đạt được",
                                   "isEmptyNode": false
                                 },
                                 {
@@ -17430,7 +17438,7 @@ const treeData = {
                                 {
                                   "char": "正",
                                   "pinyin": "Zhèng",
-                                  "hv": "Chính"
+                                  "hv": "Chánh"
                                 },
                                 {
                                   "char": "歎",
@@ -17438,7 +17446,7 @@ const treeData = {
                                   "hv": "Thán"
                                 }
                               ],
-                              "meaning": "Chính thán",
+                              "meaning": "Chánh thán",
                               "isEmptyNode": false
                             },
                             {
@@ -17653,7 +17661,7 @@ const treeData = {
                                         {
                                           "char": "歎",
                                           "pinyin": "Tàn",
-                                          "hv": "Thán"
+                                          "hv": "Tán"
                                         },
                                         {
                                           "char": "方",
@@ -17666,7 +17674,7 @@ const treeData = {
                                           "hv": "Tiện"
                                         }
                                       ],
-                                      "meaning": "Biệt thán phương tiện",
+                                      "meaning": "Biệt tán phương tiện",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -17686,7 +17694,7 @@ const treeData = {
                                     {
                                       "char": "難",
                                       "pinyin": "Nán",
-                                      "hv": "Nạn"
+                                      "hv": "Nan"
                                     },
                                     {
                                       "char": "化",
@@ -17694,7 +17702,7 @@ const treeData = {
                                       "hv": "Hóa"
                                     }
                                   ],
-                                  "meaning": "Chỉ chung",
+                                  "meaning": "nêu tổng quát: Chúng sanh khó hóa độ",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -18035,7 +18043,7 @@ const treeData = {
                                                                 {
                                                                   "char": "正",
                                                                   "pinyin": "Zhèng",
-                                                                  "hv": "Chính"
+                                                                  "hv": "Chánh"
                                                                 },
                                                                 {
                                                                   "char": "告",
@@ -18053,7 +18061,7 @@ const treeData = {
                                                                   "hv": "Nhân"
                                                                 }
                                                               ],
-                                                              "meaning": "Chính cáo mê nhân",
+                                                              "meaning": "Chánh cáo mê nhân",
                                                               "isEmptyNode": false
                                                             }
                                                           ],
@@ -18200,7 +18208,7 @@ const treeData = {
                                             {
                                               "char": "難",
                                               "pinyin": "Nán",
-                                              "hv": "Nạn"
+                                              "hv": "Nan"
                                             },
                                             {
                                               "char": "脫",
@@ -18208,7 +18216,7 @@ const treeData = {
                                               "hv": "Thoát"
                                             }
                                           ],
-                                          "meaning": "Ước chúng sanh ác tập nạn thoát",
+                                          "meaning": "nói theo phía chúng sanh khó thoát tập khí ác",
                                           "isEmptyNode": false
                                         }
                                       ],
@@ -18289,7 +18297,7 @@ const treeData = {
                                 {
                                   "char": "正",
                                   "pinyin": "Zhèng",
-                                  "hv": "Chính"
+                                  "hv": "Chánh"
                                 },
                                 {
                                   "char": "陳",
@@ -18307,7 +18315,7 @@ const treeData = {
                                   "hv": "Bổn"
                                 }
                               ],
-                              "meaning": "Chính trần nghi bổn",
+                              "meaning": "Chánh trần nghi bổn",
                               "isEmptyNode": false
                             }
                           ],
@@ -18647,7 +18655,7 @@ const treeData = {
                                 {
                                   "char": "行",
                                   "pinyin": "Xíng",
-                                  "hv": "Hạnh"
+                                  "hv": "Hành"
                                 },
                                 {
                                   "char": "處",
@@ -18655,7 +18663,7 @@ const treeData = {
                                   "hv": "Xứ"
                                 }
                               ],
-                              "meaning": "Tự kỷ hạnh xứ",
+                              "meaning": "trần thuật chỗ du hành của chính mình",
                               "isEmptyNode": false
                             },
                             {
@@ -18702,7 +18710,7 @@ const treeData = {
                         {
                           "char": "正",
                           "pinyin": "Zhèng",
-                          "hv": "Chính"
+                          "hv": "Chánh"
                         },
                         {
                           "char": "興",
@@ -18715,7 +18723,7 @@ const treeData = {
                           "hv": "Vấn"
                         }
                       ],
-                      "meaning": "Chính hưng vấn",
+                      "meaning": "Chánh hưng vấn",
                       "isEmptyNode": false
                     },
                     {
@@ -18904,7 +18912,7 @@ const treeData = {
                             {
                               "char": "難",
                               "pinyin": "Nán",
-                              "hv": "Nạn"
+                              "hv": "Nan"
                             },
                             {
                               "char": "脫",
@@ -18912,7 +18920,7 @@ const treeData = {
                               "hv": "Thoát"
                             }
                           ],
-                          "meaning": "Hợp ác tập nạn thoát",
+                          "meaning": "Hợp ác tập nan thoát",
                           "isEmptyNode": false
                         },
                         {
@@ -19672,7 +19680,7 @@ const treeData = {
                                                 {
                                                   "char": "正",
                                                   "pinyin": "Zhèng",
-                                                  "hv": "Chính"
+                                                  "hv": "Chánh"
                                                 },
                                                 {
                                                   "char": "行",
@@ -19680,7 +19688,7 @@ const treeData = {
                                                   "hv": "Hạnh"
                                                 }
                                               ],
-                                              "meaning": "Thị thành phật chính hạnh",
+                                              "meaning": "Thị thành phật chánh hạnh",
                                               "isEmptyNode": false
                                             },
                                             {
@@ -19807,7 +19815,7 @@ const treeData = {
                                                     {
                                                       "char": "為",
                                                       "pinyin": "Wèi",
-                                                      "hv": "Vi"
+                                                      "hv": "Vị"
                                                     },
                                                     {
                                                       "char": "說",
@@ -19825,7 +19833,7 @@ const treeData = {
                                                       "hv": "Ích"
                                                     }
                                                   ],
-                                                  "meaning": "Địa tạng vi thuyết lợi ích",
+                                                  "meaning": "Địa tạng vị thuyết lợi ích",
                                                   "isEmptyNode": false
                                                 }
                                               ],
@@ -19914,7 +19922,7 @@ const treeData = {
                                     {
                                       "char": "令",
                                       "pinyin": "Lìng",
-                                      "hv": "Lệnh"
+                                      "hv": "Linh"
                                     },
                                     {
                                       "char": "安",
@@ -19927,7 +19935,7 @@ const treeData = {
                                       "hv": "Lạc"
                                     }
                                   ],
-                                  "meaning": "Hộ lệnh an lạc",
+                                  "meaning": "che chở cho họ được an vui",
                                   "isEmptyNode": false
                                 },
                                 {
@@ -19966,7 +19974,7 @@ const treeData = {
                                                   "hv": "Lai"
                                                 }
                                               ],
-                                              "meaning": "Kinh",
+                                              "meaning": "Bảo Tánh Như Lai",
                                               "isEmptyNode": false
                                             }
                                           ],
@@ -19999,7 +20007,7 @@ const treeData = {
                                               "hv": "Lai"
                                             }
                                           ],
-                                          "meaning": "Vô biên thân như lai",
+                                          "meaning": "Vô Biên Thân Như Lai",
                                           "isEmptyNode": false
                                         }
                                       ],
@@ -20164,7 +20172,7 @@ const treeData = {
                     {
                       "char": "為",
                       "pinyin": "Wèi",
-                      "hv": "Vi"
+                      "hv": "Vị"
                     },
                     {
                       "char": "說",
@@ -20172,7 +20180,7 @@ const treeData = {
                       "hv": "Thuyết"
                     }
                   ],
-                  "meaning": "Hứa vấn vi thuyết",
+                  "meaning": "chấp thuận giải đáp câu hỏi",
                   "isEmptyNode": false
                 }
               ],
@@ -20502,7 +20510,7 @@ const treeData = {
                     {
                       "char": "為",
                       "pinyin": "Wèi",
-                      "hv": "Vi"
+                      "hv": "Vị"
                     },
                     {
                       "char": "修",
@@ -20515,7 +20523,7 @@ const treeData = {
                       "hv": "Phước"
                     }
                   ],
-                  "meaning": "Quyến thuộc đương vi tu phước",
+                  "meaning": "Quyến thuộc đương vị tu phước",
                   "isEmptyNode": false
                 },
                 {
@@ -20555,15 +20563,15 @@ const treeData = {
                         {
                           "char": "間",
                           "pinyin": "Jiān",
-                          "hv": "Gian"
+                          "hv": "Gián"
                         },
                         {
                           "char": "苦",
                           "pinyin": "Kǔ",
-                          "hv": "Khổ"
+                          "hv": "Tội"
                         }
                       ],
-                      "meaning": "Thiểu thiện duyên trừ vô gian khổ",
+                      "meaning": "do chút thiện duyên, trừ tội Vô Gián",
                       "isEmptyNode": false
                     }
                   ],
@@ -20744,7 +20752,7 @@ const treeData = {
                     {
                       "char": "正",
                       "pinyin": "Zhèng",
-                      "hv": "Chính"
+                      "hv": "Chánh"
                     },
                     {
                       "char": "稱",
@@ -20762,7 +20770,7 @@ const treeData = {
                       "hv": "Danh"
                     }
                   ],
-                  "meaning": "Đại sĩ chính xưng phật danh",
+                  "meaning": "Đại sĩ chánh xưng phật danh",
                   "isEmptyNode": false
                 },
                 {
@@ -20924,7 +20932,7 @@ const treeData = {
                                               "hv": "Phật"
                                             }
                                           ],
-                                          "meaning": "Kinh",
+                                          "meaning": "Đại Thông Sơn Vương Phật",
                                           "isEmptyNode": false
                                         }
                                       ],
@@ -20952,7 +20960,7 @@ const treeData = {
                                           "hv": "Phật"
                                         }
                                       ],
-                                      "meaning": "Ca sa tràng phật",
+                                      "meaning": "Ca Sa Tràng Phật",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -20975,7 +20983,7 @@ const treeData = {
                                       "hv": "Phật"
                                     }
                                   ],
-                                  "meaning": "Kinh",
+                                  "meaning": "Bảo Tướng Phật",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -21003,7 +21011,7 @@ const treeData = {
                                   "hv": "Lai"
                                 }
                               ],
-                              "meaning": "Kinh",
+                              "meaning": "Bảo Thắng Như Lai",
                               "isEmptyNode": false
                             }
                           ],
@@ -21031,7 +21039,7 @@ const treeData = {
                               "hv": "Phật"
                             }
                           ],
-                          "meaning": "Kinh",
+                          "meaning": "Tỳ Bà Thi Phật",
                           "isEmptyNode": false
                         }
                       ],
@@ -21059,7 +21067,7 @@ const treeData = {
                           "hv": "Phật"
                         }
                       ],
-                      "meaning": "Kinh",
+                      "meaning": "Câu lưu Tôn Phật",
                       "isEmptyNode": false
                     }
                   ],
@@ -21087,7 +21095,7 @@ const treeData = {
                       "hv": "Phật"
                     }
                   ],
-                  "meaning": "Kinh",
+                  "meaning": "Sư Tử Hống Phật",
                   "isEmptyNode": false
                 }
               ],
@@ -21125,7 +21133,7 @@ const treeData = {
                   "hv": "Lai"
                 }
               ],
-              "meaning": "Kinh",
+              "meaning": "Ba Đầu Ma Thắng Như Lai",
               "isEmptyNode": false
             },
             {
@@ -21775,13 +21783,8 @@ const treeData = {
                               "page": 22,
                               "x": 186.49425888061523,
                               "words": [
-                                {
-                                  "char": "益",
-                                  "pinyin": "Yì",
-                                  "hv": "Ích"
-                                }
+
                               ],
-                              "meaning": "Ích",
                               "isEmptyNode": false
                             }
                           ],
@@ -21807,9 +21810,14 @@ const treeData = {
                               "char": "名",
                               "pinyin": "Míng",
                               "hv": "Danh"
+                            },
+                            {
+                              "char": "益",
+                              "pinyin": "Yì",
+                              "hv": "Ích"
                             }
                           ],
-                          "meaning": "Nêu ra danh hiệu",
+                          "meaning": "lợi ích do xưng danh lúc lâm chung",
                           "isEmptyNode": false
                         },
                         {
@@ -22081,7 +22089,7 @@ const treeData = {
                                                 {
                                                   "char": "正",
                                                   "pinyin": "Zhèng",
-                                                  "hv": "Chính"
+                                                  "hv": "Chánh"
                                                 },
                                                 {
                                                   "char": "明",
@@ -22109,7 +22117,7 @@ const treeData = {
                                                   "hv": "Bi"
                                                 }
                                               ],
-                                              "meaning": "Chính minh năng thí từ bi",
+                                              "meaning": "Chánh minh năng thí từ bi",
                                               "isEmptyNode": false
                                             }
                                           ],
@@ -22203,7 +22211,7 @@ const treeData = {
                                         {
                                           "char": "正",
                                           "pinyin": "Zhèng",
-                                          "hv": "Chính"
+                                          "hv": "Chánh"
                                         },
                                         {
                                           "char": "申",
@@ -22221,7 +22229,7 @@ const treeData = {
                                           "hv": "Lượng"
                                         }
                                       ],
-                                      "meaning": "Chính thân giảo lượng",
+                                      "meaning": "Chánh thân giảo lượng",
                                       "isEmptyNode": false
                                     },
                                     {
@@ -22233,7 +22241,7 @@ const treeData = {
                                         {
                                           "char": "正",
                                           "pinyin": "Zhèng",
-                                          "hv": "Chính"
+                                          "hv": "Chánh"
                                         },
                                         {
                                           "char": "較",
@@ -22241,7 +22249,7 @@ const treeData = {
                                           "hv": "Giảo"
                                         }
                                       ],
-                                      "meaning": "Chính giảo",
+                                      "meaning": "Chánh giảo",
                                       "isEmptyNode": false
                                     },
                                     {
@@ -22350,7 +22358,7 @@ const treeData = {
                                       "hv": "Lượng"
                                     }
                                   ],
-                                  "meaning": "Như Lai đối trước đại Địa Tạng Bồ Tát Bổn Nguyện Kinh Khoa Chú 529 chúng so sánh",
+                                  "meaning": "Như Lai đối trước đại chúng so sánh",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -22375,7 +22383,7 @@ const treeData = {
                                 {
                                   "char": "間",
                                   "pinyin": "Jiān",
-                                  "hv": "Gian"
+                                  "hv": "Gián"
                                 },
                                 {
                                   "char": "疑",
@@ -22383,7 +22391,7 @@ const treeData = {
                                   "hv": "Nghi"
                                 }
                               ],
-                              "meaning": "Thích diệt vô gian nghi",
+                              "meaning": "Thích diệt vô gián nghi",
                               "isEmptyNode": false
                             }
                           ],
@@ -22551,7 +22559,7 @@ const treeData = {
                             {
                               "char": "正",
                               "pinyin": "Zhèng",
-                              "hv": "Chính"
+                              "hv": "Chánh"
                             },
                             {
                               "char": "較",
@@ -22569,7 +22577,7 @@ const treeData = {
                               "hv": "Thiểu"
                             }
                           ],
-                          "meaning": "Chính giảo đa thiểu",
+                          "meaning": "so sánh nhiều ít",
                           "isEmptyNode": false
                         }
                       ],
@@ -22602,7 +22610,7 @@ const treeData = {
                           "hv": "Lợi"
                         }
                       ],
-                      "meaning": "Ước sanh thời đắc lợi",
+                      "meaning": "xét theo lợi ích khi sanh tử",
                       "isEmptyNode": false
                     }
                   ],
@@ -22635,7 +22643,7 @@ const treeData = {
                       "hv": "Ích"
                     }
                   ],
-                  "meaning": "Xét theo một danh hiệu để Địa Tạng Bồ Tát Bổn Nguyện Kinh Khoa Chú 521 luận lợi ích do nghe nhiều danh hiệu",
+                  "meaning": "Xét theo một danh hiệu để luận lợi ích do nghe nhiều danh hiệu",
                   "isEmptyNode": false
                 },
                 {
@@ -22715,7 +22723,7 @@ const treeData = {
                                             {
                                               "char": "供",
                                               "pinyin": "Gōng",
-                                              "hv": "Cung"
+                                              "hv": "Cúng"
                                             },
                                             {
                                               "char": "大",
@@ -22733,7 +22741,7 @@ const treeData = {
                                               "hv": "Phước"
                                             }
                                           ],
-                                          "meaning": "Thí cung đại thừa phước",
+                                          "meaning": "Thí cúng đại thừa phước",
                                           "isEmptyNode": false
                                         }
                                       ],
@@ -22748,7 +22756,7 @@ const treeData = {
                                         {
                                           "char": "供",
                                           "pinyin": "Gōng",
-                                          "hv": "Cung"
+                                          "hv": "Cúng"
                                         },
                                         {
                                           "char": "聖",
@@ -22766,7 +22774,7 @@ const treeData = {
                                           "hv": "Phước"
                                         }
                                       ],
-                                      "meaning": "Thí cung thánh tượng phước",
+                                      "meaning": "Thí cúng thánh tượng phước",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -23514,7 +23522,7 @@ const treeData = {
                               "hv": "Nhân"
                             }
                           ],
-                          "meaning": "Kinh",
+                          "meaning": "Tu Nhân",
                           "isEmptyNode": false
                         },
                         {
@@ -23683,7 +23691,7 @@ const treeData = {
                           "hv": "Pháp"
                         }
                       ],
-                      "meaning": "Thị hướng hướng pháp",
+                      "meaning": "Hồi hướng Pháp giới",
                       "isEmptyNode": false
                     },
                     {
@@ -24087,7 +24095,7 @@ const treeData = {
                                             {
                                               "char": "供",
                                               "pinyin": "Gōng",
-                                              "hv": "Cung"
+                                              "hv": "Cúng"
                                             },
                                             {
                                               "char": "擁",
@@ -24105,7 +24113,7 @@ const treeData = {
                                               "hv": "Sự"
                                             }
                                           ],
-                                          "meaning": "Thuật thành độc cung ủng hộ sự",
+                                          "meaning": "trần thuật thành tựu do việc đọc tụng, cúng dường, ủng hộ",
                                           "isEmptyNode": false
                                         }
                                       ],
@@ -24262,7 +24270,7 @@ const treeData = {
                                 {
                                   "char": "供",
                                   "pinyin": "Gōng",
-                                  "hv": "Cung"
+                                  "hv": "Cúng"
                                 },
                                 {
                                   "char": "養",
@@ -24275,7 +24283,7 @@ const treeData = {
                                   "hv": "Nhân"
                                 }
                               ],
-                              "meaning": "Hộ cung dường nhân",
+                              "meaning": "hộ trì người cúng dường",
                               "isEmptyNode": false
                             }
                           ],
@@ -24351,7 +24359,7 @@ const treeData = {
                                                         {
                                                           "char": "災",
                                                           "pinyin": "Zāi",
-                                                          "hv": "Trạch"
+                                                          "hv": "Tai"
                                                         },
                                                         {
                                                           "char": "證",
@@ -24364,7 +24372,7 @@ const treeData = {
                                                           "hv": "Quả"
                                                         }
                                                       ],
-                                                      "meaning": "Ủng hộ trừ trạch chứng quả",
+                                                      "meaning": "Ủng hộ trừ tai chứng quả",
                                                       "isEmptyNode": false
                                                     }
                                                   ],
@@ -24384,7 +24392,7 @@ const treeData = {
                                                     {
                                                       "char": "供",
                                                       "pinyin": "Gōng",
-                                                      "hv": "Cung"
+                                                      "hv": "Cúng"
                                                     },
                                                     {
                                                       "char": "像",
@@ -24402,7 +24410,7 @@ const treeData = {
                                                       "hv": "Kinh"
                                                     }
                                                   ],
-                                                  "meaning": "Nam nữ cung tượng độc kinh",
+                                                  "meaning": "Nam nữ cúng tượng độc kinh",
                                                   "isEmptyNode": false
                                                 }
                                               ],
@@ -24422,7 +24430,7 @@ const treeData = {
                                                 {
                                                   "char": "供",
                                                   "pinyin": "Gōng",
-                                                  "hv": "Cung"
+                                                  "hv": "Cúng"
                                                 },
                                                 {
                                                   "char": "像",
@@ -24445,25 +24453,15 @@ const treeData = {
                                                   "hv": "Sự"
                                                 }
                                               ],
-                                              "meaning": "Độc kinh cung tượng tiêu hoạnh sự",
+                                              "meaning": "đọc kinh, thờ phụng tượng, sẽ tiêu trừ các chuyện ngang trái",
                                               "isEmptyNode": false
                                             }
                                           ],
                                           "page": 25,
                                           "x": 250.3775863647461,
                                           "words": [
-                                            {
-                                              "char": "利",
-                                              "pinyin": "Lì",
-                                              "hv": "Lợi"
-                                            },
-                                            {
-                                              "char": "益",
-                                              "pinyin": "Yì",
-                                              "hv": "Ích"
-                                            }
+
                                           ],
-                                          "meaning": "Nêu bày lợi ích do nguyện xưa",
                                           "isEmptyNode": false
                                         },
                                         {
@@ -24492,7 +24490,7 @@ const treeData = {
                                         {
                                           "char": "供",
                                           "pinyin": "Gōng",
-                                          "hv": "Cung"
+                                          "hv": "Cúng"
                                         },
                                         {
                                           "char": "讚",
@@ -24503,9 +24501,19 @@ const treeData = {
                                           "char": "得",
                                           "pinyin": "Dé",
                                           "hv": "Đắc"
+                                        },
+                                        {
+                                          "char": "利",
+                                          "pinyin": "Lì",
+                                          "hv": "Lợi"
+                                        },
+                                        {
+                                          "char": "益",
+                                          "pinyin": "Yì",
+                                          "hv": "Ích"
                                         }
                                       ],
-                                      "meaning": "Tố tượng cung tán đắc",
+                                      "meaning": "đắp tượng, cúng dường, tán thán, sẽ đạt được lợi ích",
                                       "isEmptyNode": false
                                     },
                                     {
@@ -24592,10 +24600,10 @@ const treeData = {
                                                     {
                                                       "char": "災",
                                                       "pinyin": "Zāi",
-                                                      "hv": "Trạch"
+                                                      "hv": "Tai"
                                                     }
                                                   ],
-                                                  "meaning": "Địa thần ủng hộ trừ trạch",
+                                                  "meaning": "Địa thần ủng hộ trừ tai",
                                                   "isEmptyNode": false
                                                 }
                                               ],
@@ -24799,7 +24807,7 @@ const treeData = {
                                           "hv": "Nhân"
                                         }
                                       ],
-                                      "meaning": "Kinh",
+                                      "meaning": "Tu Nhân",
                                       "isEmptyNode": false
                                     },
                                     {
@@ -24894,7 +24902,7 @@ const treeData = {
                                     {
                                       "char": "難",
                                       "pinyin": "Nán",
-                                      "hv": "Nạn"
+                                      "hv": "Nan"
                                     },
                                     {
                                       "char": "量",
@@ -24902,7 +24910,7 @@ const treeData = {
                                       "hv": "Lượng"
                                     }
                                   ],
-                                  "meaning": "Hiển giáo hóa nạn lượng",
+                                  "meaning": "chỉ rõ Bồ Tát giáo hóa khó lường",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -25123,18 +25131,8 @@ const treeData = {
                               "page": 26,
                               "x": 529.797607421875,
                               "words": [
-                                {
-                                  "char": "流",
-                                  "pinyin": "Liú",
-                                  "hv": "Lưu"
-                                },
-                                {
-                                  "char": "通",
-                                  "pinyin": "Tōng",
-                                  "hv": "Thông"
-                                }
+
                               ],
-                              "meaning": "Các phần lưu thông chuyên biệt",
                               "isEmptyNode": false
                             }
                           ],
@@ -25164,10 +25162,20 @@ const treeData = {
                             {
                               "char": "為",
                               "pinyin": "Wèi",
-                              "hv": "Vi"
+                              "hv": "Vị"
+                            },
+                            {
+                              "char": "流",
+                              "pinyin": "Liú",
+                              "hv": "Lưu"
+                            },
+                            {
+                              "char": "通",
+                              "pinyin": "Tōng",
+                              "hv": "Thông"
                             }
                           ],
-                          "meaning": "Quán âm thỉnh thuyết vi",
+                          "meaning": "đức Quán Âm xin Phật nói để lưu thông",
                           "isEmptyNode": false
                         }
                       ],
@@ -25508,7 +25516,7 @@ const treeData = {
                                         {
                                           "char": "正",
                                           "pinyin": "Zhèng",
-                                          "hv": "Chính"
+                                          "hv": "Chánh"
                                         },
                                         {
                                           "char": "請",
@@ -25518,7 +25526,7 @@ const treeData = {
                                         {
                                           "char": "為",
                                           "pinyin": "Wèi",
-                                          "hv": "Vi"
+                                          "hv": "Vị"
                                         },
                                         {
                                           "char": "眾",
@@ -25536,7 +25544,7 @@ const treeData = {
                                           "hv": "Đức"
                                         }
                                       ],
-                                      "meaning": "Chính thỉnh vi chúng dương đức",
+                                      "meaning": "Chánh thỉnh vị chúng dương đức",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -25592,13 +25600,8 @@ const treeData = {
                                               "page": 26,
                                               "x": 544.8576049804688,
                                               "words": [
-                                                {
-                                                  "char": "業",
-                                                  "pinyin": "Yè",
-                                                  "hv": "Nghiệp"
-                                                }
+
                                               ],
-                                              "meaning": "Hỏi đáp về hạnh nghiệp",
                                               "isEmptyNode": false
                                             }
                                           ],
@@ -25624,6 +25627,11 @@ const treeData = {
                                               "char": "惡",
                                               "pinyin": "È",
                                               "hv": "Ác"
+                                            },
+                                            {
+                                              "char": "業",
+                                              "pinyin": "Yè",
+                                              "hv": "Nghiệp"
                                             }
                                           ],
                                           "meaning": "Chuyển biến nghiệp ác khi lâm chung",
@@ -25886,7 +25894,7 @@ const treeData = {
                                                 {
                                                   "char": "供",
                                                   "pinyin": "Gōng",
-                                                  "hv": "Cung"
+                                                  "hv": "Cúng"
                                                 },
                                                 {
                                                   "char": "利",
@@ -25894,7 +25902,7 @@ const treeData = {
                                                   "hv": "Lợi"
                                                 }
                                               ],
-                                              "meaning": "Huống thí cung lợi",
+                                              "meaning": "Huống thí cúng lợi",
                                               "isEmptyNode": false
                                             }
                                           ],
@@ -26748,7 +26756,7 @@ const treeData = {
                                           "hv": "Tựu"
                                         }
                                       ],
-                                      "meaning": "Kinh",
+                                      "meaning": "Nguyện cầu thành tựu",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -27124,7 +27132,7 @@ const treeData = {
                                         {
                                           "char": "正",
                                           "pinyin": "Zhèng",
-                                          "hv": "Chính"
+                                          "hv": "Chánh"
                                         },
                                         {
                                           "char": "告",
@@ -27132,7 +27140,7 @@ const treeData = {
                                           "hv": "Cáo"
                                         }
                                       ],
-                                      "meaning": "Chính cáo",
+                                      "meaning": "Chánh cáo",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -27354,7 +27362,7 @@ const treeData = {
                     {
                       "char": "重",
                       "pinyin": "Zhòng",
-                      "hv": "Trọng"
+                      "hv": "Trùng"
                     },
                     {
                       "char": "頌",
@@ -27362,7 +27370,7 @@ const treeData = {
                       "hv": "Tụng"
                     }
                   ],
-                  "meaning": "Trọng tụng",
+                  "meaning": "Trùng tụng",
                   "isEmptyNode": false
                 },
                 {
@@ -27441,7 +27449,7 @@ const treeData = {
                             {
                               "char": "難",
                               "pinyin": "Nán",
-                              "hv": "Nạn"
+                              "hv": "Nan"
                             },
                             {
                               "char": "盡",
@@ -27449,7 +27457,7 @@ const treeData = {
                               "hv": "Tận"
                             }
                           ],
-                          "meaning": "Tổng tụng thần lực nạn tận",
+                          "meaning": "Tổng tụng thần lực nan tận",
                           "isEmptyNode": false
                         }
                       ],
@@ -27487,7 +27495,7 @@ const treeData = {
                           "hv": "Bố"
                         }
                       ],
-                      "meaning": "Kinh",
+                      "meaning": "Kết khuyến Đại Sĩ lưu bố",
                       "isEmptyNode": false
                     }
                   ],
@@ -27540,10 +27548,10 @@ const treeData = {
                 {
                   "char": "行",
                   "pinyin": "Xíng",
-                  "hv": "Hạnh"
+                  "hv": "Hàng"
                 }
               ],
-              "meaning": "Trường hạnh",
+              "meaning": "Trường hàng",
               "isEmptyNode": false
             },
             {
@@ -27695,7 +27703,7 @@ const treeData = {
                         {
                           "char": "陸",
                           "pinyin": "Lù",
-                          "hv": "Lục"
+                          "hv": "Lực"
                         },
                         {
                           "char": "險",
@@ -28203,7 +28211,7 @@ const treeData = {
                   "hv": "Nhân"
                 }
               ],
-              "meaning": "Kinh",
+              "meaning": "Tu Nhân",
               "isEmptyNode": false
             },
             {
@@ -28452,7 +28460,7 @@ const treeData = {
                                     {
                                       "char": "載",
                                       "pinyin": "Zài",
-                                      "hv": "Tải"
+                                      "hv": "Tái"
                                     },
                                     {
                                       "char": "囑",
@@ -28470,7 +28478,7 @@ const treeData = {
                                       "hv": "Thiên"
                                     }
                                   ],
-                                  "meaning": "Hô danh tải chúc nhân thiên",
+                                  "meaning": "Hô danh tái chúc nhân thiên",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -28558,7 +28566,7 @@ const treeData = {
                                               "hv": "Tụng"
                                             }
                                           ],
-                                          "meaning": "Kinh",
+                                          "meaning": "Kệ Tụng",
                                           "isEmptyNode": false
                                         }
                                       ],
@@ -28573,10 +28581,10 @@ const treeData = {
                                         {
                                           "char": "行",
                                           "pinyin": "Xíng",
-                                          "hv": "Hạnh"
+                                          "hv": "Hàng"
                                         }
                                       ],
-                                      "meaning": "Trường hạnh",
+                                      "meaning": "Trường hàng",
                                       "isEmptyNode": false
                                     },
                                     {
@@ -28616,7 +28624,7 @@ const treeData = {
                                             {
                                               "char": "令",
                                               "pinyin": "Lìng",
-                                              "hv": "Lệnh"
+                                              "hv": "Linh"
                                             },
                                             {
                                               "char": "退",
@@ -28629,7 +28637,7 @@ const treeData = {
                                               "hv": "Thất"
                                             }
                                           ],
-                                          "meaning": "Thiểu thiện chúng sanh vật lệnh thối thất",
+                                          "meaning": "Thiểu thiện chúng sanh vật linh thối thất",
                                           "isEmptyNode": false
                                         }
                                       ],
@@ -28664,7 +28672,7 @@ const treeData = {
                                         {
                                           "char": "令",
                                           "pinyin": "Lìng",
-                                          "hv": "Lệnh"
+                                          "hv": "Linh"
                                         },
                                         {
                                           "char": "墮",
@@ -28677,7 +28685,7 @@ const treeData = {
                                           "hv": "Khổ"
                                         }
                                       ],
-                                      "meaning": "Hỏa trạch chúng sanh vật lệnh đọa khổ",
+                                      "meaning": "Hỏa trạch chúng sanh vật linh đọa khổ",
                                       "isEmptyNode": false
                                     }
                                   ],
@@ -29245,7 +29253,7 @@ const treeData = {
                                                     {
                                                       "char": "供",
                                                       "pinyin": "Gōng",
-                                                      "hv": "Cung"
+                                                      "hv": "Cúng"
                                                     },
                                                     {
                                                       "char": "養",
@@ -29263,7 +29271,7 @@ const treeData = {
                                                       "hv": "Thối"
                                                     }
                                                   ],
-                                                  "meaning": "Thiên chủ chúng hội cung dường lễ thối",
+                                                  "meaning": "Thiên chủ chúng hội cúng dường lễ thối",
                                                   "isEmptyNode": false
                                                 }
                                               ],
@@ -29428,9 +29436,21 @@ const treeData = {
                                       "char": "定",
                                       "pinyin": "Dìng",
                                       "hv": "Định"
-                                    }
+                                    },
+                                    {
+                                      "char": "分",
+                                      "pinyin": "Fēn",
+                                      "hv": "Phân"
+                                    },
+                                    {
+                                      "char": "形",
+                                      "pinyin": "Xíng",
+                                      "hv": "Hình"
+                                    },
+
+
                                   ],
-                                  "meaning": "Tánh của chúng sanh bất định",
+                                  "meaning": "lại nói rõ chúng sanh chí tánh vô định, Phật phải phân thân hóa độ",
                                   "isEmptyNode": false
                                 }
                               ],
@@ -29440,7 +29460,7 @@ const treeData = {
                                 {
                                   "char": "正",
                                   "pinyin": "Zhèng",
-                                  "hv": "Chính"
+                                  "hv": "Chánh"
                                 },
                                 {
                                   "char": "以",
@@ -29478,7 +29498,7 @@ const treeData = {
                                   "hv": "Chúc"
                                 }
                               ],
-                              "meaning": "Chính dĩ tam giới thiên nhân phó chúc",
+                              "meaning": "Chánh dĩ tam giới thiên nhân phó chúc",
                               "isEmptyNode": false
                             }
                           ],
